@@ -2,7 +2,10 @@
   console.log("Bookmarklet starting")
 
   // do someting
-
+  function myFunction() {
+    var popup = document.getElementById("myPopup");
+    popup.classList.toggle("show");
+  }
 })();
 
 
