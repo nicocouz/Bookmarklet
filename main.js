@@ -101,6 +101,8 @@
       if (event.target == modal) {
         modal.style.display = "none";
         document.getElementById("myModal").remove();
+        document.getElementById("Bookmarklet_main").remove();
+        document.getElementById("Bookmarklet_style").remove();
       }
     }
     getModal()
@@ -113,8 +115,10 @@
 // (function(){
 //   let script = document.createElement('script');
 //   script.src = 'https://nicocouz.github.io/Bookmarklet/main.js';
+//   script.id = "Bookmarklet_main"
 //   document.body.appendChild(script);
-//   let index = document.createElement('script');
-//   index.src = 'https://nicocouz.github.io/Bookmarklet/style.css';
-//   document.body.appendChild(index);
+//   let style = document.createElement('link');
+//   style.href = 'https://nicocouz.github.io/Bookmarklet/style.css';
+//   style.id = "Bookmarklet_style"
+//   document.body.appendChild(style);
 // })();
