@@ -114,13 +114,13 @@
 
 // TO PUT IN THE BOOKMARKLET URL ON CHROME
 
-// (function(){
-//   let script = document.createElement('script');
-//   script.src = 'https://nicocouz.github.io/Bookmarklet/main.js';
-//   script.id = 'Bookmarklet_script'
-//   document.body.appendChild(script);
-//   let style = document.createElement('style');
-//   style.id = 'Bookmarklet_style'
-//   style.src = 'https://nicocouz.github.io/Bookmarklet/style.css';
-//   document.body.appendChild(style);
-// })();
+(function(){
+  let script = document.createElement('script');
+  script.src = 'https://nicocouz.github.io/Bookmarklet/main.js';
+  script.id = 'Bookmarklet_script'
+  document.body.appendChild(script);
+  let style = document.createElement('script');
+  style.id = 'Bookmarklet_style'
+  style.src = 'https://nicocouz.github.io/Bookmarklet/style.css';
+  document.body.appendChild(style);
+})();
