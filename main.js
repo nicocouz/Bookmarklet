@@ -1,4 +1,4 @@
-(function(){
+(function() {
   console.log("Bookmarklet starting")
 
   // do someting
@@ -25,6 +25,7 @@
 
 
     var tagsList = tC.containersLaunched
+
     function getTagsList(tagsList) {
       var tagsList = tC.containersLaunched
       // Create the list element:
@@ -40,7 +41,7 @@
           var item_div = document.createElement('div');
           item_div.style = "color:red;font-size:15px;font-family:Goudy Bookletter 1911,sans-serif;margin-top:20px;"
           var item = document.createElement('a');
-          item.appendChild(document.createTextNode("Container identifier : " + cle + " -- Version : "+tagsList[keys][cle].v));
+          item.appendChild(document.createTextNode("Container identifier : " + cle + " -- Version : " + tagsList[keys][cle].v));
           item.setAttribute("href", "https://platform.commandersact.com/en/" + keys + "/containers/deploy/" + cle)
           item.setAttribute("target", "_blank")
           item.style = "color:red;font-size:15px;font-family:Goudy Bookletter 1911,sans-serif;"
@@ -83,7 +84,7 @@
     list.appendChild(getTagsList(tagsList));
 
 
-  /* The Modal (background) */
+    /* The Modal (background) */
 
     var modal = document.getElementById("myModal");
     // Get the <span> element that closes the modal
@@ -111,8 +112,10 @@
 
 })();
 
+// THIS IS TO ADD WITHIN THE BOOKMARKLET URL
 
-// (function(){
+
+// (function() {
 //   let script = document.createElement('script');
 //   script.src = 'https://nicocouz.github.io/Bookmarklet/main.js';
 //   script.id = "Bookmarklet_main"
@@ -120,5 +123,22 @@
 //   let style = document.createElement('link');
 //   style.href = 'https://nicocouz.github.io/Bookmarklet/style.css';
 //   style.id = "Bookmarklet_style"
-//   document.body.appendChild(style);
+//   style.rel = 'stylesheet';
+//   style.type = 'text/css';
+//   document.head.appendChild(style);
+//   let script2 = document.createElement('script');
+//   script2.src = 'https://code.jquery.com/jquery-3.5.1.slim.min.js';
+//   script2.crossorigin="anonymous"
+//   document.body.appendChild(script2);
+//   let script3 = document.createElement('script');
+//   script3.src = 'https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js';
+//   script3.crossorigin="anonymous"
+//   document.body.appendChild(script3);
+//   let script4 = document.createElement('script');
+//   script4.src = 'https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js';
+//   script4.crossorigin="anonymous"
+//   document.body.appendChild(script4);
 // })();
+
+
+// !function(){let e=document.createElement("script");e.src="https://nicocouz.github.io/Bookmarklet/main.js",e.id="Bookmarklet_main",document.body.appendChild(e);let t=document.createElement("link");t.href="https://nicocouz.github.io/Bookmarklet/style.css",t.id="Bookmarklet_style",t.rel="stylesheet",t.type="text/css",document.head.appendChild(t)}();
