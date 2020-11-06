@@ -1,16 +1,21 @@
 //  Last modification :
-//  06/11/20 - 18:45
+//  06/11/20 - 19:18
 
 
 (function() {
-  console.log("Bookmarklet starting")
 
   // do someting
   // To get it open hit > getModal()
 
   if (typeof tC === "undefined") {
     alert("No containers called on that page")
-  } else {
+  } else if (document.getElementById("myModal") != "undefined") {
+    document.getElementById("myModal").remove();
+    document.getElementById("Bookmarklet_main").remove();
+    document.getElementById("Bookmarklet_style").remove();
+  }
+  else {
+    console.log("Bookmarklet starting")
 
     //tC.pixelTrack.add("https://nicolastest.commander1.com/?v3/tcs=4505&host="+document.location.host+"&env_template="+tc_vars.env_template)
 
@@ -90,7 +95,9 @@
 
     /* The Modal (background) */
 
-    var modal = document.getElementById("myModal");
+    var modal = document.getElementById("#myModal");
+    var modal_content_id = document.getElementById("#modal_content")
+    var modal_content_p = document.getElementById("#modal_content_p")
     console.log(modal)
     // Get the <span> element that closes the modal
     var span = document.getElementsByClassName("close")[0];
@@ -103,14 +110,14 @@
       modal.style.display = "none";
     }
     // When the user clicks anywhere outside of the modal, close it
-    window.onclick = function(event) {
-      if (event.target != modal && event.target != modal-content) {
-        console.log(event.target)
-        document.getElementById("myModal").remove();
-        document.getElementById("Bookmarklet_main").remove();
-        document.getElementById("Bookmarklet_style").remove();
-      }
-    }
+    // window.onclick = function(event) {
+    //   if (event.target != modal && event.target != modal_content_id && event.target != modal_content_p) {
+    //     console.log(event.target)
+    //     document.getElementById("myModal").remove();
+    //     document.getElementById("Bookmarklet_main").remove();
+    //     document.getElementById("Bookmarklet_style").remove();
+    //   }
+    // }
     getModal()
   }
 
