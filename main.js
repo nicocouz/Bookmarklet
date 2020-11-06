@@ -114,7 +114,7 @@
 
 // THIS IS TO ADD WITHIN THE BOOKMARKLET URL
 
-
+// 
 // (function() {
 //   let script = document.createElement('script');
 //   script.src = 'https://nicocouz.github.io/Bookmarklet/main.js';
@@ -138,6 +138,12 @@
 //   script4.src = 'https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js';
 //   script4.crossorigin="anonymous"
 //   document.body.appendChild(script4);
+//   //<link href="extern.html" rel="import" />
+//   let index = document.createElement('link');
+//   index.href = 'https://nicocouz.github.io/Bookmarklet/index.html';
+//   index.rel = 'import';
+//   index.style = 'display:absolute'
+//   document.head.appendChild(index);
 // })();
 
 
