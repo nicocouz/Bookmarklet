@@ -104,7 +104,7 @@
     }
     // When the user clicks anywhere outside of the modal, close it
     window.onclick = function(event) {
-      if (event.target != modal) {
+      if (event.target != modal || event.target != modal-content) {
         console.log(event.target)
         document.getElementById("myModal").remove();
         document.getElementById("Bookmarklet_main").remove();
