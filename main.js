@@ -2,8 +2,6 @@
 //  06/11/20 - 16.09
 
 
-
-
 (function() {
   console.log("Bookmarklet starting")
 
@@ -21,10 +19,10 @@
     modal.className = "modal";
     var modal_content = document.createElement("div");
     modal_content.className = "modal-content"
+    modal_content.id = "modal_content"
     modal_content.innerText = "COMMANDERS ACT POPIN"
-    modal_content.style = "font-size:25px!important"
     var modal_content_p = document.createElement("p");
-    modal_content_p.style = "margin:35px;font-size:17px!important"
+    modal_content_p.id = "modal_content_p"
     modal_content_p.innerText = "Click outside to close the popin"
     modal_content.appendChild(modal_content_p)
     modal.appendChild(modal_content)
