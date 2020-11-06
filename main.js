@@ -1,5 +1,5 @@
 //  Last modification :
-//  06/11/20 - 18:43
+//  06/11/20 - 18:45
 
 
 (function() {
@@ -104,7 +104,7 @@
     }
     // When the user clicks anywhere outside of the modal, close it
     window.onclick = function(event) {
-      if (event.target != modal || event.target != modal-content) {
+      if (event.target != modal && event.target != modal-content) {
         console.log(event.target)
         document.getElementById("myModal").remove();
         document.getElementById("Bookmarklet_main").remove();
