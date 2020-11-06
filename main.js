@@ -1,5 +1,5 @@
 //  Last modification :
-//  06/11/20 - 18:17
+//  06/11/20 - 18:27
 
 
 (function() {
@@ -90,7 +90,7 @@
 
     /* The Modal (background) */
 
-    var modal = document.getElementById("myModal");
+    const modal = document.getElementById("myModal");
     console.log(modal)
     // Get the <span> element that closes the modal
     var span = document.getElementsByClassName("close")[0];
@@ -105,7 +105,6 @@
     // When the user clicks anywhere outside of the modal, close it
     window.onclick = function(event) {
       if (event.target != modal) {
-        modal.style.display = "none";
         document.getElementById("myModal").remove();
         document.getElementById("Bookmarklet_main").remove();
         document.getElementById("Bookmarklet_style").remove();
