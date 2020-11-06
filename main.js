@@ -1,5 +1,5 @@
 //  Last modification :
-//  06/11/20 - 18:27
+//  06/11/20 - 18:31
 
 
 (function() {
@@ -90,7 +90,7 @@
 
     /* The Modal (background) */
 
-    const modal = document.getElementById("myModal");
+    var modal = document.getElementById("myModal");
     console.log(modal)
     // Get the <span> element that closes the modal
     var span = document.getElementsByClassName("close")[0];
@@ -130,24 +130,6 @@
 //   style.rel = 'stylesheet';
 //   style.type = 'text/css';
 //   document.head.appendChild(style);
-//   let script2 = document.createElement('script');
-//   script2.src = 'https://code.jquery.com/jquery-3.5.1.slim.min.js';
-//   script2.crossorigin="anonymous"
-//   document.body.appendChild(script2);
-//   let script3 = document.createElement('script');
-//   script3.src = 'https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js';
-//   script3.crossorigin="anonymous"
-//   document.body.appendChild(script3);
-//   let script4 = document.createElement('script');
-//   script4.src = 'https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js';
-//   script4.crossorigin="anonymous"
-//   document.body.appendChild(script4);
-//   //<link href="extern.html" rel="import" />
-//   let index = document.createElement('link');
-//   index.href = 'https://nicocouz.github.io/Bookmarklet/index.html';
-//   index.rel = 'import';
-//   index.style = 'display:absolute'
-//   document.head.appendChild(index);
 // })();
 
 
