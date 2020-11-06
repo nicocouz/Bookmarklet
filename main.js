@@ -1,5 +1,5 @@
 //  Last modification :
-//  06/11/20 - 19:19
+//  06/11/20 - 19:23
 
 
 (function() {
@@ -13,8 +13,7 @@
     document.getElementById("myModal").remove();
     document.getElementById("Bookmarklet_main").remove();
     document.getElementById("Bookmarklet_style").remove();
-  }
-  else {
+  } else if {
     console.log("Bookmarklet starting")
 
     //tC.pixelTrack.add("https://nicolastest.commander1.com/?v3/tcs=4505&host="+document.location.host+"&env_template="+tc_vars.env_template)
