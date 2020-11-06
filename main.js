@@ -1,5 +1,5 @@
 //  Last modification :
-//  06/11/20 - 19:18
+//  06/11/20 - 19:19
 
 
 (function() {
@@ -9,7 +9,7 @@
 
   if (typeof tC === "undefined") {
     alert("No containers called on that page")
-  } else if (document.getElementById("myModal") != "undefined") {
+  } else if (document.getElementById("myModal") != null) {
     document.getElementById("myModal").remove();
     document.getElementById("Bookmarklet_main").remove();
     document.getElementById("Bookmarklet_style").remove();
