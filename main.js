@@ -79,9 +79,6 @@
     modal_p.id = "modal_p"
     modal_p.innerHTML = getTagsList();
 
-    var modal_span = document.createElement("span");
-    modal_span.className = "close"
-    modal_content.appendChild(modal_span);
     modal_content.appendChild(modal_p);
     var currentDiv = document.getElementById('div1');
 
@@ -98,16 +95,11 @@
     // var modal_content_id = document.getElementById("#modal_content")
     // var modal_content_p = document.getElementById("#modal_content_p")
     console.log(modal)
-    // Get the <span> element that closes the modal
-    var span = document.getElementsByClassName("close")[0];
     // When the user clicks the button, open the modal
     function getModal() {
       modal.style.display = "block";
     }
-    // When the user clicks on <span> (x), close the modal
-    span.onclick = function() {
-      modal.style.display = "none";
-    }
+  
     // When the user clicks anywhere outside of the modal, close it
     document.getElementById("button_close").addEventListener("click", function() {
       //console.log(event.target)
