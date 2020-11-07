@@ -1,6 +1,6 @@
 /*
   Last modification :
-  07/11/20 - 23:37
+  07/11/20 - 23:42
 */
 .modal_ca {
   /* display: none !important; */
@@ -29,6 +29,7 @@
   border: 1px solid rgba(0, 0, 0, .2) !important;
   /* border-radius: .3rem; */
   outline: 0 !important;
+  padding: 13px !important;
 }
 
 /* The Close Button */

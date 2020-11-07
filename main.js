@@ -1,5 +1,5 @@
 //  Last modification :
-//  07/11/20 - 23:37
+//  07/11/20 - 23:42
 
 
 (function() {
@@ -19,7 +19,7 @@
     modal.className = "modal_ca";
 
     navbar_ca = document.createElement('nav')
-    navbar_ca.className = 'navbar_ca'
+    navbar_ca.id = 'navbar_ca'
     modal.appendChild(navbar_ca)
 
     var tagcologo = document.createElement("img");
