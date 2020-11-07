@@ -1,8 +1,8 @@
 /*
   Last modification :
-  07/11/20 - 23:30
+  07/11/20 - 23:37
 */
-.modal {
+.modal_ca {
   /* display: none !important; */
   position: absolute !important;
   margin: 17px !important;
@@ -55,17 +55,8 @@
   font-size: 17px !important;
 }
 
-#button_close {
-  position: fixed !important;
-  display: block !important;
-  position: fixed !important;
-  margin: -5px !important;
-  /* right: 30px !important; */
-  top: 40px !important;
-  border-radius: 100px !important;
-  height: 15px !important;
-  overflow: auto !important;
-  z-index: 9999999999999999 !important;
+#navbar_ca{
+  height: 30px !important;
 }
 
 #tagcologo {
@@ -78,4 +69,17 @@
   position: absolute !important;
   top: 0px !important;
   left: 0px !important;
+}
+
+#button_close {
+  position: fixed !important;
+  display: block !important;
+  position: fixed !important;
+  margin: -5px !important;
+  /* right: 30px !important; */
+  top: 40px !important;
+  border-radius: 100px !important;
+  height: 15px !important;
+  overflow: auto !important;
+  z-index: 9999999999999999 !important;
 }

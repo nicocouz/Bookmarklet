@@ -1,5 +1,5 @@
 //  Last modification :
-//  07/11/20 - 23:30
+//  07/11/20 - 23:37
 
 
 (function() {
@@ -16,15 +16,22 @@
 
     var modal = document.createElement("div");
     modal.id = "myModal";
-    modal.className = "modal";
+    modal.className = "modal_ca";
+
+    navbar_ca = document.createElement('nav')
+    navbar_ca.className = 'navbar_ca'
+    modal.appendChild(navbar_ca)
+
     var tagcologo = document.createElement("img");
     tagcologo.id = 'tagcologo'
     tagcologo.src = "https://nicocouz.github.io/Bookmarklet/tagcologo.png";
-    modal.appendChild(tagcologo);
+    navbar_ca.appendChild(tagcologo);
+
     button_close = document.createElement('button')
     button_close.type = 'button'
     button_close.id = 'button_close'
-    modal.appendChild(button_close)
+    navbar_ca.appendChild(button_close)
+
     var modal_content = document.createElement("div");
     modal_content.className = "modal-content"
     modal_content.id = "modal_content"
