@@ -1,5 +1,5 @@
 //  Last modification :
-//  07/11/20 - 15:52
+//  07/11/20 - 15:55
 
 
 (function() {
@@ -18,8 +18,8 @@
     modal.id = "myModal";
     modal.className = "modal";
     var tagcologo = document.createElement("img");
-    tagcologo.src = "tagcologo.png";
-    moadal.appendChild(tagcologo);
+    tagcologo.src = "/tagcologo.png";
+    modal.appendChild(tagcologo);
     button_close = document.createElement('button')
     button_close.type = 'button'
     button_close.id = 'button_close'
