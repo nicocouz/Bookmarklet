@@ -17,6 +17,9 @@
     var modal = document.createElement("div");
     modal.id = "myModal";
     modal.className = "modal";
+    var tagcologo = document.createElement("img");
+    tagcologo.src = "tagcologo.png";
+    moadal.appendChild(tagcologo);
     button_close = document.createElement('button')
     button_close.type = 'button'
     button_close.id = 'button_close'
@@ -106,12 +109,12 @@
     }
     // When the user clicks anywhere outside of the modal, close it
     document.getElementById("button_close").addEventListener("click", function() {
-        //console.log(event.target)
-        document.getElementById("myModal").remove();
-        document.getElementById("Bookmarklet_main").remove();
-        document.getElementById("Bookmarklet_style").remove();
+      //console.log(event.target)
+      document.getElementById("myModal").remove();
+      document.getElementById("Bookmarklet_main").remove();
+      document.getElementById("Bookmarklet_style").remove();
 
-   });
+    });
     getModal()
   }
 
