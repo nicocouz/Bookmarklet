@@ -91,15 +91,12 @@
 
     /* The Modal (background) */
 
-    // var modal = document.getElementById("#myModal");
-    // var modal_content_id = document.getElementById("#modal_content")
-    // var modal_content_p = document.getElementById("#modal_content_p")
     console.log(modal)
     // When the user clicks the button, open the modal
     function getModal() {
       modal.style.display = "block";
     }
-  
+
     // When the user clicks anywhere outside of the modal, close it
     document.getElementById("button_close").addEventListener("click", function() {
       //console.log(event.target)
