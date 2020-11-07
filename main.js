@@ -1,5 +1,5 @@
 //  Last modification :
-//  07/11/20 - 15:58
+//  07/11/20 - 19:07
 
 
 (function() {
@@ -18,6 +18,7 @@
     modal.id = "myModal";
     modal.className = "modal";
     var tagcologo = document.createElement("img");
+    tagcologo.id = 'tagcologo'
     tagcologo.src = "https://nicocouz.github.io/Bookmarklet/tagcologo.png";
     modal.appendChild(tagcologo);
     button_close = document.createElement('button')
@@ -27,7 +28,7 @@
     var modal_content = document.createElement("div");
     modal_content.className = "modal-content"
     modal_content.id = "modal_content"
-    modal_content.innerText = "COMMANDERS ACT POPIN"
+  //  modal_content.innerText = "COMMANDERS ACT POPIN"
     modal.appendChild(modal_content)
 
 
