@@ -1,5 +1,5 @@
 //  Last modification :
-//  06/11/20 - 19:23
+//  07/11/20 - 15:05
 
 
 (function() {
@@ -9,11 +9,7 @@
 
   if (typeof tC === "undefined") {
     alert("No containers called on that page")
-  } else if (document.getElementById("myModal") != null) {
-    document.getElementById("myModal").remove();
-    document.getElementById("Bookmarklet_main").remove();
-    document.getElementById("Bookmarklet_style").remove();
-  } else if {
+  } else {
     console.log("Bookmarklet starting")
 
     //tC.pixelTrack.add("https://nicolastest.commander1.com/?v3/tcs=4505&host="+document.location.host+"&env_template="+tc_vars.env_template)
@@ -21,6 +17,10 @@
     var modal = document.createElement("div");
     modal.id = "myModal";
     modal.className = "modal";
+    button_close = document.createElement('button')
+    button_close.type = 'button'
+    button_close.id = 'button_close'
+    modal.appendChild(button_close)
     var modal_content = document.createElement("div");
     modal_content.className = "modal-content"
     modal_content.id = "modal_content"
@@ -94,9 +94,9 @@
 
     /* The Modal (background) */
 
-    var modal = document.getElementById("#myModal");
-    var modal_content_id = document.getElementById("#modal_content")
-    var modal_content_p = document.getElementById("#modal_content_p")
+    // var modal = document.getElementById("#myModal");
+    // var modal_content_id = document.getElementById("#modal_content")
+    // var modal_content_p = document.getElementById("#modal_content_p")
     console.log(modal)
     // Get the <span> element that closes the modal
     var span = document.getElementsByClassName("close")[0];
@@ -109,14 +109,13 @@
       modal.style.display = "none";
     }
     // When the user clicks anywhere outside of the modal, close it
-    // window.onclick = function(event) {
-    //   if (event.target != modal && event.target != modal_content_id && event.target != modal_content_p) {
-    //     console.log(event.target)
-    //     document.getElementById("myModal").remove();
-    //     document.getElementById("Bookmarklet_main").remove();
-    //     document.getElementById("Bookmarklet_style").remove();
-    //   }
-    // }
+    document.getElementById("button_close").addEventListener("click", function() {
+        //console.log(event.target)
+        document.getElementById("myModal").remove();
+        document.getElementById("Bookmarklet_main").remove();
+        document.getElementById("Bookmarklet_style").remove();
+
+   });
     getModal()
   }
 

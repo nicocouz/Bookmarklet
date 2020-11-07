@@ -1,30 +1,31 @@
 /*
   Last modification :
-  06/11/20 - 18:45
+  07/11/20 - 15:05
 */
-
 .modal {
-    /* display: none !important; */
-    position: fixed !important;
-    margin: 20px !important;
-    right: 30px !important;
-    top: 20px !important;
-    width: 200px !important;
-    height: 300px !important;
-    overflow: auto !important;
-    /* background-color: rgb(0,0,0) !important;*/
-    border-radius: 20px !important;
-    z-index: 999999999999999 !important;
+  /* display: none !important; */
+  position: fixed !important;
+  margin: 20px !important;
+  right: 30px !important;
+  top: 20px !important;
+  width: 200px !important;
+  height: 300px !important;
+  overflow: auto !important;
+  /* background-color: rgb(0,0,0) !important;*/
+  border-radius: 20px !important;
+  z-index: 999999999999999 !important;
 }
+
 /* Modal Content */
 .modal-content {
-    background-color: #fefefe !important;
-    margin: auto !important;
-    padding: 10px !important;
-    border: 1px solid #888 !important;
-    /* border-radius: 40px !important !important; */
-    width: 100% !important;
+  background-color: #fefefe !important;
+  margin: auto !important;
+  padding: 10px !important;
+  border: 1px solid #888 !important;
+  /* border-radius: 40px !important !important; */
+  width: 100% !important;
 }
+
 /* The Close Button */
 .close {
   color: #aaaaaa !important;
@@ -32,6 +33,7 @@
   font-size: 28px !important;
   font-weight: bold !important;
 }
+
 .close:hover,
 .close:focus {
   color: #000 !important;
@@ -39,11 +41,23 @@
   cursor: pointer !important;
 }
 
-#modal_content{
-  font-size:25px!important;
+#modal_content {
+  font-size: 25px !important;
 }
 
-#modal_content_p{
-  margin:35px!important;
-  font-size:17px!important;
+#modal_content_p {
+  margin: 35px !important;
+  font-size: 17px !important;
+}
+
+#button_close {
+    position: fixed !important;
+    display: block !important;
+    position: fixed !important;
+    margin: -5px !important;
+    /* right: 30px !important; */
+    top: 40px !important;
+    border-radius: 100px !important;
+    height: 15px !important;
+    overflow: auto !important;
 }
