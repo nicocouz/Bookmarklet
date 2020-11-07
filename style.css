@@ -1,6 +1,6 @@
 /*
   Last modification :
-  07/11/20 - 23:42
+  07/11/20 - 23:55
 */
 .modal_ca {
   /* display: none !important; */
@@ -27,7 +27,7 @@
   background-color: #fff !important;
   /* background-clip: padding-box; */
   border: 1px solid rgba(0, 0, 0, .2) !important;
-  /* border-radius: .3rem; */
+  border-radius: 0!important;
   outline: 0 !important;
   padding: 13px !important;
 }
@@ -56,8 +56,8 @@
   font-size: 17px !important;
 }
 
-#navbar_ca{
-  height: 30px !important;
+#navbar_ca {
+  height: 50px !important;
 }
 
 #tagcologo {
@@ -73,14 +73,14 @@
 }
 
 #button_close {
-  position: fixed !important;
-  display: block !important;
-  position: fixed !important;
-  margin: -5px !important;
+  /* position: fixed !important; */
+  /* display: block !important; */
+  /* position: fixed !important; */
+  /* margin: -5px !important; */
   /* right: 30px !important; */
-  top: 40px !important;
+  /* top: 40px !important; */
   border-radius: 100px !important;
   height: 15px !important;
-  overflow: auto !important;
+  /* overflow: auto !important; */
   z-index: 9999999999999999 !important;
 }

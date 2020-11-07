@@ -1,5 +1,5 @@
 //  Last modification :
-//  07/11/20 - 23:42
+//  07/11/20 - 23:55
 
 
 (function() {
@@ -18,7 +18,7 @@
     modal.id = "myModal";
     modal.className = "modal_ca";
 
-    navbar_ca = document.createElement('nav')
+    var navbar_ca = document.createElement('nav')
     navbar_ca.id = 'navbar_ca'
     modal.appendChild(navbar_ca)
 
@@ -27,7 +27,11 @@
     tagcologo.src = "https://nicocouz.github.io/Bookmarklet/tagcologo.png";
     navbar_ca.appendChild(tagcologo);
 
-    button_close = document.createElement('button')
+    var li_ca = document.createElement('li')
+    li_ca.id = 'li_ca'
+    navbar_ca.appendChild(li_ca)
+
+    var button_close = document.createElement('button')
     button_close.type = 'button'
     button_close.id = 'button_close'
     navbar_ca.appendChild(button_close)
@@ -35,7 +39,7 @@
     var modal_content = document.createElement("div");
     modal_content.className = "modal-content"
     modal_content.id = "modal_content"
-  //  modal_content.innerText = "COMMANDERS ACT POPIN"
+    //  modal_content.innerText = "COMMANDERS ACT POPIN"
     modal.appendChild(modal_content)
 
 
