@@ -1,5 +1,5 @@
 //  Last modification :
-//  07/11/20 - 15:56
+//  07/11/20 - 15:58
 
 
 (function() {
@@ -18,7 +18,7 @@
     modal.id = "myModal";
     modal.className = "modal";
     var tagcologo = document.createElement("img");
-    tagcologo.src = "Bookmarklet/tagcologo.png";
+    tagcologo.src = "https://nicocouz.github.io/Bookmarklet/tagcologo.png";
     modal.appendChild(tagcologo);
     button_close = document.createElement('button')
     button_close.type = 'button'
