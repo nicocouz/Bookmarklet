@@ -70,7 +70,7 @@
           // Tags identifier
           if (tagsList[keys][cle].t.length > 0) {
             for (var i = 0; i < tagsList[keys][cle].t.length; i += 1) {
-              var item = document.createElement('ul');
+              var item = document.createElement('br');
               list.appendChild(item);
               var item = document.createElement('a');
               item.innerHTML = tagsList[keys][cle].t[i].label
