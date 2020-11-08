@@ -1,6 +1,6 @@
 /*
   Last modification :
-  08/11/20 - 11:14
+  08/11/20 - 11:23
 */
 .modal_ca {
   /* display: none !important; */
@@ -59,6 +59,7 @@
 
 #navbar_ca {
   height: 50px !important;
+  padding: 8px!important;
 }
 
 #tagcologo {
@@ -81,7 +82,8 @@
   /* right: 30px !important; */
   /* top: 40px !important; */
   border-radius: 100px !important;
-  height: 15px !important;
-  /* overflow: auto !important; */
+  border-radius: 100px !important;
+  height: 35px !important;
+  width: 35px !important;
   z-index: 9999999999999999 !important;
 }
