@@ -2,6 +2,8 @@
 //  08/11/20 - 20:24
 
 (function() {
+  //<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  // font-family: 'Roboto', sans-serif;
 
   // do someting
   // To get it open hit > getModal()
