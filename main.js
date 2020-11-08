@@ -1,9 +1,7 @@
 //  Last modification :
-//  08/11/20 - 21:00
+//  08/11/20 - 23:27
 
 (function() {
-  //<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-  // font-family: 'Roboto', sans-serif;
 
   // do someting
   // To get it open hit > getModal()
@@ -14,6 +12,8 @@
     console.log("Bookmarklet starting")
 
     //tC.pixelTrack.add("https://nicolastest.commander1.com/?v3/tcs=4505&host="+document.location.host+"&env_template="+tc_vars.env_template)
+    let style = document.createElement('link');
+    style.href = 'https://fonts.googleapis.com/css2?family=Roboto&display=swap';
 
     var modal = document.createElement("div");
     modal.id = "myModal";
