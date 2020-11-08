@@ -1,6 +1,6 @@
 /*
   Last modification :
-  08/11/20 - 11:26
+  08/11/20 - 13:08
 */
 .modal_ca {
   /* display: none !important; */
@@ -12,7 +12,7 @@
   height: 300px !important;
   overflow: auto !important;
   background-color: rgb(0, 0, 0) !important;
-  border-radius: 20px !important;
+  /* border-radius: 20px !important;*/
   z-index: 999999999999999 !important;
   box-shadow: 10px 10px 5px #656565!important;
 }
@@ -25,31 +25,12 @@
   -ms-flex-direction: column !important;
   flex-direction: column;
   /* pointer-events: auto; */
-  background-color: #fff !important;
+  background-color: #DCDCDC !important;
   /* background-clip: padding-box; */
   border: 1px solid rgba(0, 0, 0, .2) !important;
   border-radius: 0!important;
   outline: 0 !important;
   padding: 13px !important;
-}
-
-/* The Close Button */
-.close {
-  color: #aaaaaa !important;
-  float: right !important;
-  font-size: 28px !important;
-  font-weight: bold !important;
-}
-
-.close:hover,
-.close:focus {
-  color: #000 !important;
-  text-decoration: none !important;
-  cursor: pointer !important;
-}
-
-#modal_content {
-  font-size: 25px !important;
 }
 
 #modal_content_p {
@@ -60,6 +41,7 @@
 #navbar_ca {
   height: 50px !important;
   padding: 8px!important;
+  background: #2c3f51!important;
 }
 
 #tagcologo {
@@ -81,10 +63,7 @@
   /* margin: -5px !important; */
   /* right: 30px !important; */
   /* top: 40px !important; */
-  border-radius: 100px !important;
-  border-radius: 100px !important;
-  height: 35px !important;
-  width: 35px !important;
+  height: 37px !important;
   float: right !important;
   z-index: 9999999999999999 !important;
 }
