@@ -1,6 +1,6 @@
 /*
   Last modification :
-  08/11/20 - 11:23
+  08/11/20 - 11:26
 */
 .modal_ca {
   /* display: none !important; */
@@ -85,5 +85,6 @@
   border-radius: 100px !important;
   height: 35px !important;
   width: 35px !important;
+  float: right !important;
   z-index: 9999999999999999 !important;
 }
