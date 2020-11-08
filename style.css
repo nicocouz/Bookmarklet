@@ -1,6 +1,6 @@
 /*
   Last modification :
-  08/11/20 - 19:41
+  08/11/20 - 19:48
 */
 .modal_ca {
   /* display: none !important; */
@@ -48,22 +48,22 @@
   height: 6% !important;
 }
 
+#navbar_ca_div{
+
+}
+
 #tagcologo {
-  /* border: 1px solid #ddd; */
-  /* background-color: #fff; */
   padding: 2% !important;
-  width: 70% !important;
-  z-index: 999999999999999 !important;
-  /* display: block; */
+  /* height: 6% !important; */
   top: 0px !important;
   left: 0px !important;
-  width: 40% !important;
+  width: 53% !important;
   overflow: overlay !important;
   z-index: 999999999999999 !important;
 }
 
 #button_close {
-    margin: 5% !important;
+    margin: 7% !important;
     width: 5% !important;
     float: right !important;
     z-index: 9999999999999999 !important;

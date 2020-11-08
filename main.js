@@ -1,5 +1,5 @@
 //  Last modification :
-//  08/11/20 - 19:41
+//  08/11/20 - 19:48
 
 
 (function() {
@@ -23,17 +23,13 @@
     modal.appendChild(navbar_ca)
 
     var navbar_ca_div = document.createElement("div");
-    navbar_ca_div.className = 'navbar_ca_div'
+    navbar_ca_div.id = 'navbar_ca_div'
     navbar_ca.appendChild(navbar_ca_div)
 
     var tagcologo = document.createElement("img");
     tagcologo.id = 'tagcologo'
     tagcologo.src = "https://staticplatform.commandersact.com/bundles/common/theme-2018/images/logo-white.svg?v=7.79.65";
     navbar_ca_div.appendChild(tagcologo);
-
-    // var li_ca = document.createElement('li')
-    // li_ca.id = 'li_ca'
-    // navbar_ca_div.appendChild(li_ca)
 
     var button_close = document.createElement('button')
     button_close.type = 'button'
@@ -43,7 +39,6 @@
     var modal_content = document.createElement("div");
     modal_content.className = "modal-content"
     modal_content.id = "modal_content"
-    //  modal_content.innerText = "COMMANDERS ACT POPIN"
     modal.appendChild(modal_content)
 
 
