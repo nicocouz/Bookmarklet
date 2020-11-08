@@ -1,6 +1,6 @@
 /*
   Last modification :
-  08/11/20 - 20:49
+  08/11/20 - 21:00
 */
 .modal_ca {
   /* display: none !important; */
@@ -37,7 +37,7 @@
   font-size: 17px !important;
 }
 
-nav #navbar_ca {
+#navbar_ca {
   background: #2c3f51 !important;
   position: fixed !important;
   z-index: 9999999999 !important;

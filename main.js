@@ -1,5 +1,5 @@
 //  Last modification :
-//  08/11/20 - 20:49
+//  08/11/20 - 21:00
 
 (function() {
   //<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
@@ -19,7 +19,7 @@
     modal.id = "myModal";
     modal.className = "modal_ca";
 
-    var navbar_ca = document.createElement('nav')
+    var navbar_ca = document.createElement('div')
     navbar_ca.id = 'navbar_ca'
     modal.appendChild(navbar_ca)
 
