@@ -1,6 +1,6 @@
 /*
   Last modification :
-  08/11/20 - 19:11
+  08/11/20 - 19:21
 */
 .modal_ca {
   /* display: none !important; */
@@ -39,7 +39,7 @@
 }
 
 #navbar_ca {
-  height: 50px !important;
+  height: 16% !important;
   padding: 8px !important;
   background: #2c3f51 !important;
 }
@@ -53,9 +53,8 @@
   /* display: block; */
   top: 0px !important;
   left: 0px !important;
-
-  width: 40%!important;
-  overflow: overlay!important;
+  width: 40% !important;
+  overflow: overlay !important;
   z-index: 999999999999999 !important;
 }
 
