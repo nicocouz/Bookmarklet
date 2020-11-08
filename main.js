@@ -1,5 +1,5 @@
 //  Last modification :
-//  08/11/20 - 23:37
+//  08/11/20 - 00:0
 
 (function() {
 
@@ -52,8 +52,9 @@
       var list = document.createElement('div');
       // Site identifier
       for (var keys in tagsList) {
-        var item = document.createElement('li');
+        var item = document.createElement('h1');
         item.appendChild(document.createTextNode("Site identifier : " + keys));
+        item.id = "h1_site_id"
         item.style = "color:black;font-size:18px;font-family:Goudy Bookletter 1911,sans-serif;list-style-type:circle;"
         list.appendChild(item);
         // Container identifier

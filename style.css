@@ -1,6 +1,6 @@
 /*
   Last modification :
-  08/11/20 - 23:37
+  08/11/20 - 00:00
 */
 .modal_ca {
   /* display: none !important; */
@@ -68,8 +68,13 @@
 }
 
 #button_close:hover {
-    color: grey !important;
-    text-shadow: 0 0 10px !important;
+  color: grey !important;
+  text-shadow: 0 0 10px !important;
+}
+
+#h1_site_id {
+  color: black;
+  font-size: 18px;
 }
 
 #tagslistitem {
