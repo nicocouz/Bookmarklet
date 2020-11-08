@@ -1,6 +1,6 @@
 /*
   Last modification :
-  08/11/20 - 13:46
+  08/11/20 - 13:56
 */
 .modal_ca {
   /* display: none !important; */
@@ -30,6 +30,7 @@
   /* background-clip: padding-box; */
   outline: 0 !important;
   padding: 13px !important;
+  border-radius: 0 !important;
 }
 
 #modal_content_p {
@@ -47,7 +48,7 @@
   /* border: 1px solid #ddd; */
   /* background-color: #fff; */
   /* padding: 5px; */
-  width: 50px !important;
+  width: 70% !important;
   z-index: 999999999999999 !important;
   /* display: block; */
   position: absolute !important;

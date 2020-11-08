@@ -1,5 +1,5 @@
 //  Last modification :
-//  08/11/20 - 13:46
+//  08/11/20 - 13:56
 
 
 (function() {
@@ -28,7 +28,7 @@
 
     var tagcologo = document.createElement("img");
     tagcologo.id = 'tagcologo'
-    tagcologo.src = "https://nicocouz.github.io/Bookmarklet/tagcologo.png";
+    tagcologo.src = "https://staticplatform.commandersact.com/bundles/common/theme-2018/images/logo-white.svg?v=7.79.65";
     navbar_ca_div.appendChild(tagcologo);
 
     // var li_ca = document.createElement('li')
