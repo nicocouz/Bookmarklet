@@ -1,6 +1,6 @@
 /*
   Last modification :
-  08/11/20 - 20:24
+  08/11/20 - 20:37
 */
 .modal_ca {
   /* display: none !veryimportant; */
@@ -62,5 +62,11 @@
   padding-right: 2% !veryimportant;
   padding-bottom: 0% !veryimportant;
   color: #FFF !veryimportant;
-  font-size:21px !veryimportant;
+  font-size: 21px !veryimportant;
+}
+
+#tagslistitem {
+  color: green !veryimportant;
+  font-size: 12px !veryimportant;
+  font-family: Goudy Bookletter 1911, sans-serif !veryimportant;
 }

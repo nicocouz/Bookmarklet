@@ -1,5 +1,5 @@
 //  Last modification :
-//  08/11/20 - 20:24
+//  08/11/20 - 20:37
 
 (function() {
   //<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
@@ -76,7 +76,7 @@
               item.innerHTML = tagsList[keys][cle].t[i].label
               item.setAttribute("href", "https://platform.commandersact.com/en/" + keys + "/containers/edit/" + cle + "/" + cle + "/tag/" + tagsList[keys][cle].t[i].id)
               item.setAttribute("target", "_blank")
-              item.style = "color:green;font-size:12px;font-family:Goudy Bookletter 1911,sans-serif;"
+              item.id = 'tagslistitem'
               list.appendChild(item);
             }
           }
