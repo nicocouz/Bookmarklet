@@ -1,5 +1,5 @@
 //  Last modification :
-//  08/11/20 - 23:27
+//  08/11/20 - 23:37
 
 (function() {
 
@@ -70,13 +70,13 @@
           // Tags identifier
           if (tagsList[keys][cle].t.length > 0) {
             for (var i = 0; i < tagsList[keys][cle].t.length; i += 1) {
-              var item = document.createElement('br');
-              list.appendChild(item);
               var item = document.createElement('a');
               item.innerHTML = tagsList[keys][cle].t[i].label
               item.setAttribute("href", "https://platform.commandersact.com/en/" + keys + "/containers/edit/" + cle + "/" + cle + "/tag/" + tagsList[keys][cle].t[i].id)
               item.setAttribute("target", "_blank")
               item.id = 'tagslistitem'
+              list.appendChild(item);
+              var item = document.createElement('br');
               list.appendChild(item);
             }
           }
