@@ -1,5 +1,5 @@
 //  Last modification :
-//  08/11/20 - 00:0
+//  08/11/20 - 00:02
 
 (function() {
 
@@ -59,8 +59,8 @@
         list.appendChild(item);
         // Container identifier
         for (var cle in tagsList[keys]) {
-          var item_div = document.createElement('div');
-          item_div.style = "color:red;font-size:15px;font-family:Goudy Bookletter 1911,sans-serif;margin-top:20px;"
+          var item_div = document.createElement('h2');
+          item_div.id = "h2_container_id"
           var item = document.createElement('a');
           item.appendChild(document.createTextNode("Container identifier : " + cle + " -- Version : " + tagsList[keys][cle].v));
           item.setAttribute("href", "https://platform.commandersact.com/en/" + keys + "/containers/deploy/" + cle)

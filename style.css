@@ -1,6 +1,6 @@
 /*
   Last modification :
-  08/11/20 - 00:00
+  08/11/20 - 00:02
 */
 .modal_ca {
   /* display: none !important; */
@@ -73,8 +73,14 @@
 }
 
 #h1_site_id {
-  color: black;
-  font-size: 18px;
+  color: black !important;
+  font-size: 18px !important;
+  padding-top: 32px !important;
+}
+
+#h2_container_id {
+  color: red !important;
+  font-size: 15px !important;
 }
 
 #tagslistitem {
