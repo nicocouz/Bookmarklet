@@ -1,5 +1,5 @@
 //  Last modification :
-//  07/11/20 - 23:55
+//  08/11/20 - 11:14
 
 
 (function() {
@@ -22,19 +22,23 @@
     navbar_ca.id = 'navbar_ca'
     modal.appendChild(navbar_ca)
 
+    var navbar_ca_div = document.createElement("div");
+    navbar_ca_div.className = 'navbar_ca_div'
+    navbar_ca.appendChild(navbar_ca_div)
+
     var tagcologo = document.createElement("img");
     tagcologo.id = 'tagcologo'
     tagcologo.src = "https://nicocouz.github.io/Bookmarklet/tagcologo.png";
-    navbar_ca.appendChild(tagcologo);
+    navbar_ca_div.appendChild(tagcologo);
 
-    var li_ca = document.createElement('li')
-    li_ca.id = 'li_ca'
-    navbar_ca.appendChild(li_ca)
+    // var li_ca = document.createElement('li')
+    // li_ca.id = 'li_ca'
+    // navbar_ca_div.appendChild(li_ca)
 
     var button_close = document.createElement('button')
     button_close.type = 'button'
     button_close.id = 'button_close'
-    navbar_ca.appendChild(button_close)
+    navbar_ca_div.appendChild(button_close)
 
     var modal_content = document.createElement("div");
     modal_content.className = "modal-content"
