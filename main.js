@@ -1,5 +1,5 @@
 //  Last modification :
-//  08/11/20 - 20:08
+//  08/11/20 - 20:24
 
 (function() {
 
@@ -33,7 +33,7 @@
     var button_close = document.createElement('a')
     button_close.type = 'button'
     button_close.id = 'button_close'
-    button_close.innerHTML = "X"
+    button_close.innerHTML = "x"
     navbar_ca_div.appendChild(button_close)
 
     var modal_content = document.createElement("div");
