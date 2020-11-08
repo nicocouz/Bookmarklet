@@ -1,6 +1,5 @@
 //  Last modification :
-//  08/11/20 - 19:48
-
+//  08/11/20 - 20:08
 
 (function() {
 
@@ -31,9 +30,10 @@
     tagcologo.src = "https://staticplatform.commandersact.com/bundles/common/theme-2018/images/logo-white.svg?v=7.79.65";
     navbar_ca_div.appendChild(tagcologo);
 
-    var button_close = document.createElement('button')
+    var button_close = document.createElement('a')
     button_close.type = 'button'
     button_close.id = 'button_close'
+    button_close.innerHTML = "X"
     navbar_ca_div.appendChild(button_close)
 
     var modal_content = document.createElement("div");
