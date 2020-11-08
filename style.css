@@ -1,6 +1,6 @@
 /*
   Last modification :
-  08/11/20 - 19:08
+  08/11/20 - 19:11
 */
 .modal_ca {
   /* display: none !important; */
@@ -53,7 +53,7 @@
   /* display: block; */
   top: 0px !important;
   left: 0px !important;
-  position: fixed !important;
+
   width: 40%!important;
   overflow: overlay!important;
   z-index: 999999999999999 !important;
