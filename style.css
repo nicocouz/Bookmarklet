@@ -5,11 +5,11 @@
 .modal_ca {
   /* display: none !important; */
   position: fixed !important;
-  margin: 2% !important;
+  margin: 20px !important;
   right: 0 !important;
   top: 0 !important;
-  width: 40% !important;
-  height: 55% !important;
+  width: 350px !important;
+  height: 350px !important;
   overflow: auto !important;
   background-color: rgb(0, 0, 0) !important;
   z-index: 999999999999999 !important;
@@ -43,7 +43,7 @@
   background: #2c3f51 !important;
   position: fixed !important;
   z-index: 9999999999 !important;
-  width: 40% !important;
+  width: 350px !important;
 }
 
 #tagcologo {
@@ -57,7 +57,7 @@
 }
 
 #button_close {
-  margin: 3% !important;
+  margin: 4% !important;
   /* width: 4% !important; */
   float: right !important;
   z-index: 9999999999999 !important;
@@ -65,6 +65,11 @@
   padding-bottom: 0% !important;
   color: #FFF !important;
   font-size: 21px !important;
+}
+
+#button_close:hover {
+    color: grey !important;
+    text-shadow: 0 0 10px !important;
 }
 
 #tagslistitem {
