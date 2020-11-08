@@ -23,7 +23,7 @@
   display: -ms-flexbox !important;
   display: flex !important;
   -ms-flex-direction: column !important;
-  flex-direction: column!important;
+  flex-direction: column !important;
   /* pointer-events: auto; */
   background-color: #DCDCDC !important;
   /* background-clip: padding-box; */
@@ -62,5 +62,5 @@
   padding-right: 2% !important;
   padding-bottom: 0% !important;
   color: #FFF !important;
-  font-size:10px!important;
+  font-size:10px !important;
 }
