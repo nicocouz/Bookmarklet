@@ -1,5 +1,5 @@
 //  Last modification :
-//  09/11/20 - 23:05
+//  09/11/20 - 23:06
 
 (function() {
 
@@ -87,9 +87,6 @@
               list.appendChild(item);
             }
           }
-          var item = document.createElement('hr');
-          item.id = 'hr_tags'
-          list.appendChild(item);
         }
       }
       // Finally, return the constructed list:
