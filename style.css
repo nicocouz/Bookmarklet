@@ -1,6 +1,6 @@
 /*
   Last modification :
-  08/11/20 - 15:07
+  08/11/20 - 16:48
 */
 .modal_ca {
   /* display: none !important; */
@@ -9,9 +9,9 @@
   right: 0 !important;
   top: 0 !important;
   width: 350px !important;
-  height: 350px !important;
+  height: auto !important;
   overflow: auto !important;
-  background-color: rgb(0, 0, 0) !important;
+  background-color: #DCDCDC !important;
   z-index: 999999999999999 !important;
   box-shadow: 0 0 10px !important;
   border-radius: 3px !important;
