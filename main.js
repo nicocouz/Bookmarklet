@@ -37,7 +37,7 @@
 
     var button_close = document.createElement('img')
     button_close.id = 'button_close'
-    tagcologo.src = "https://nicocouz.github.io/Bookmarklet/img/close.png";
+    button_close.src = "https://nicocouz.github.io/Bookmarklet/img/close.png";
     navbar_ca_div.appendChild(button_close)
 
     var modal_content = document.createElement("div");
