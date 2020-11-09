@@ -1,5 +1,5 @@
 //  Last modification :
-//  09/11/20 - 22:58
+//  09/11/20 - 23:00
 
 (function() {
 
@@ -52,7 +52,6 @@
       var tagsList = tC.containersLaunched
       // Create the list element:
       var list = document.createElement('div');
-      list.className = 'tagcoInfo'
       // Site identifier
       for (var keys in tagsList) {
         var item = document.createElement('h1');
@@ -88,6 +87,9 @@
               list.appendChild(item);
             }
           }
+          var item = document.createElement('hr');
+          item.id = 'hr_tags'
+          list.appendChild(item);
         }
       }
       // Finally, return the constructed list:
