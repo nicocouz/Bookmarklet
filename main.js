@@ -1,5 +1,5 @@
 //  Last modification :
-//  09/11/20 - 19:03
+//  09/11/20 - 19:13
 
 (function() {
 
@@ -14,7 +14,6 @@
     document.getElementById("Bookmarklet_style").remove();
   } else {
     console.log("Bookmarklet starting")
-
     //tC.pixelTrack.add("https://nicolastest.commander1.com/?v3/tcs=4505&host="+document.location.host+"&env_template="+tc_vars.env_template)
     let style = document.createElement('link');
     style.href = 'https://fonts.googleapis.com/css2?family=Roboto&display=swap';
@@ -36,10 +35,9 @@
     tagcologo.src = "https://staticplatform.commandersact.com/bundles/common/theme-2018/images/logo-white.svg?v=7.79.65";
     navbar_ca_div.appendChild(tagcologo);
 
-    var button_close = document.createElement('a')
-    button_close.type = 'button'
+    var button_close = document.createElement('img')
     button_close.id = 'button_close'
-    button_close.innerHTML = "x"
+    tagcologo.src = "https://nicocouz.github.io/Bookmarklet/img/close.png";
     navbar_ca_div.appendChild(button_close)
 
     var modal_content = document.createElement("div");

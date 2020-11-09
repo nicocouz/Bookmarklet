@@ -1,6 +1,6 @@
 /*
   Last modification :
-  09/11/20 - 16:48
+  09/11/20 - 19:13
 */
 .modal_ca {
   /* display: none !important; */
@@ -62,8 +62,6 @@
   z-index: 9999999999999 !important;
   padding-right: 2% !important;
   padding-bottom: 0% !important;
-  color: #FFF !important;
-  font-size: 21px !important;
 }
 
 #button_close:hover {
