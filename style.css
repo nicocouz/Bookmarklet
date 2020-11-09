@@ -1,6 +1,6 @@
 /*
   Last modification :
-  09/11/20 - 22:58
+  09/11/20 - 23:01
 */
 .modal_ca {
   /* display: none !important; */
@@ -79,11 +79,15 @@
   border-top: 3px solid #2c3f51 !important;
 }
 
-#h2_container_id {
+#hr_tags {
+  width: 52px !important;
+}
+
+.tagcoInfo, #h2_container_id {
   margin: 0 !important;
 }
 
-#h2_container_id_a {
+.tagcoInfo, #h2_container_id_a {
   color: grey !important;
   font-size: 15px !important;
   font-weight: bold !important;
