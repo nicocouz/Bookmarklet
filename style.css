@@ -1,6 +1,6 @@
 /*
   Last modification :
-  09/11/20 - 20:30
+  09/11/20 - 20:35
 */
 .modal_ca {
   /* display: none !important; */
@@ -66,11 +66,6 @@
   padding-bottom: 0% !important;
 }
 
-#button_close:hover {
-  color: grey !important;
-  text-shadow: 0 0 10px !important;
-}
-
 /* CONTENT */
 #h1_site_id {
   color: black !important;
@@ -99,8 +94,8 @@
 }
 
 #h2_container_id_a:hover {
-  color: #878f99 !important;
-  text-decoration: none !important;
+  color: #FFF !important;
+  text-decoration: underline !important;
 }
 
 #tagslistitem {
