@@ -1,5 +1,5 @@
 //  Last modification :
-//  09/11/20 - 23:06
+//  09/11/20 - 23:38
 
 (function() {
 
@@ -48,10 +48,15 @@
 
     var tagsList = tC.containersLaunched
 
+    var modal_p = document.createElement('div');
+    modal_p.id = 'modal_p'
+    modal_p.innerHTML = "";
+
     function getTagsList(tagsList) {
       var tagsList = tC.containersLaunched
       // Create the list element:
       var list = document.createElement('div');
+      list.id = 'modal_p'
       // Site identifier
       for (var keys in tagsList) {
         var item = document.createElement('h1');
@@ -70,7 +75,7 @@
           item.appendChild(document.createTextNode("Container ID : " + cle + " -- Version : " + tagsList[keys][cle].v));
           item.setAttribute("href", "https://platform.commandersact.com/en/" + keys + "/containers/deploy/" + cle)
           item.setAttribute("target", "_blank")
-          item.setAttribute("title","Click here to get to the container deployed tab")
+          item.setAttribute("title", "Click here to get to the container deployed tab")
           item.id = "h2_container_id_a"
           item_div.appendChild(item);
           list.appendChild(item_div);
@@ -91,20 +96,18 @@
       }
       // Finally, return the constructed list:
       return list;
-    }
 
-    var modal_p = document.createElement("div");
-    modal_p.id = "modal_p"
-    modal_p.innerHTML = getTagsList();
+    };
+    modal_p.appendChild(getTagsList(tagsList));
 
     modal_content.appendChild(modal_p);
     var currentDiv = document.getElementById('div1');
 
     document.body.insertBefore(modal, currentDiv);
     // Add the contents of options[0] to #foo:
-    var list = document.getElementById("modal_p"); // Get the target element
-    list.innerHTML = "";
-    list.appendChild(getTagsList(tagsList));
+    // var list = document.getElementById("modal_p"); // Get the target element
+    //   list.innerHTML = "";
+    //   list.appendChild(getTagsList(tagsList));
 
 
     /* The Modal (background) */
