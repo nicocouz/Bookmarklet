@@ -1,5 +1,5 @@
 //  Last modification :
-//  09/11/20 - 20:30
+//  09/11/20 - 21:44
 
 (function() {
 
@@ -52,6 +52,7 @@
       var tagsList = tC.containersLaunched
       // Create the list element:
       var list = document.createElement('div');
+      list.className = 'tagcoInfo'
       // Site identifier
       for (var keys in tagsList) {
         var item = document.createElement('h1');
@@ -122,7 +123,6 @@
       document.getElementById("myModal").remove();
       document.getElementById("Bookmarklet_main").remove();
       document.getElementById("Bookmarklet_style").remove();
-
     });
     getModal()
   }
@@ -131,16 +131,16 @@
 })();
 
 // THIS IS TO ADD WITHIN THE BOOKMARKLET URL
-
-// ! function() {
-//   if (document.querySelector(#myModal") != null) {
-//     let e = document.createElement("script");
-//     e.src = "https://nicocouz.github.io/Bookmarklet/main.js", e.id = "Bookmarklet_main", document.body.appendChild(e);
-//     let t = document.createElement("link");
-//     t.href = "https://nicocouz.github.io/Bookmarklet/style.css", t.id = "Bookmarklet_style", t.rel = "stylesheet", t.type = "text/css", document.head.appendChild(t)
-//   }else{}
-//     document.getElementById("myModal").remove();
-//     document.getElementById("Bookmarklet_main").remove();
-//     document.getElementById("Bookmarklet_style").remove();
-//   )
-// }();
+//
+! function() {
+  if (document.querySelector('#myModal') === null) {
+    let t = document.createElement("link");
+    t.href = "https://nicocouz.github.io/Bookmarklet/style.css", t.id = "Bookmarklet_style", t.rel = "stylesheet", t.type = "text/css", document.head.appendChild(t)
+    let e = document.createElement("script");
+    e.src = "https://nicocouz.github.io/Bookmarklet/main.js", e.id = "Bookmarklet_main", document.body.appendChild(e);
+  }else{
+    document.getElementById("myModal").remove();
+    document.getElementById("Bookmarklet_main").remove();
+    document.getElementById("Bookmarklet_style").remove();
+  }
+}();

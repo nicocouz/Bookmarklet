@@ -1,6 +1,6 @@
 /*
   Last modification :
-  09/11/20 - 20:35
+  09/11/20 - 21:44
 */
 .modal_ca {
   /* display: none !important; */
@@ -83,11 +83,11 @@
   width: 52px !important;
 }
 
-#h2_container_id {
+.tagcoInfo, #h2_container_id {
   margin: 0 !important;
 }
 
-#h2_container_id_a {
+.tagcoInfo, #h2_container_id_a {
   color: grey !important;
   font-size: 15px !important;
   font-weight: bold !important;
