@@ -1,5 +1,5 @@
 //  Last modification :
-//  08/11/20 - 00:02
+//  09/11/20 - 12:14
 
 (function() {
 
@@ -88,7 +88,7 @@
       return list;
     }
 
-    var modal_p = document.createElement("p");
+    var modal_p = document.createElement("div");
     modal_p.id = "modal_p"
     modal_p.innerHTML = getTagsList();
 
