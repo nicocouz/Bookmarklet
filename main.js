@@ -1,5 +1,5 @@
 //  Last modification :
-//  09/11/20 - 18:48
+//  09/11/20 - 19:03
 
 (function() {
 
@@ -108,7 +108,6 @@
 
     /* The Modal (background) */
 
-    console.log(modal)
     // When the user clicks the button, open the modal
     function getModal() {
       modal.style.display = "block";
@@ -116,7 +115,6 @@
 
     // When the user clicks anywhere outside of the modal, close it
     document.getElementById("button_close").addEventListener("click", function() {
-      //console.log(event.target)
       document.getElementById("myModal").remove();
       document.getElementById("Bookmarklet_main").remove();
       document.getElementById("Bookmarklet_style").remove();
@@ -130,4 +128,15 @@
 
 // THIS IS TO ADD WITHIN THE BOOKMARKLET URL
 
-// !function(){let e=document.createElement("script");e.src="https://nicocouz.github.io/Bookmarklet/main.js",e.id="Bookmarklet_main",document.body.appendChild(e);let t=document.createElement("link");t.href="https://nicocouz.github.io/Bookmarklet/style.css",t.id="Bookmarklet_style",t.rel="stylesheet",t.type="text/css",document.head.appendChild(t)}();
+// ! function() {
+//   if (document.querySelector(#myModal") != null) {
+//     let e = document.createElement("script");
+//     e.src = "https://nicocouz.github.io/Bookmarklet/main.js", e.id = "Bookmarklet_main", document.body.appendChild(e);
+//     let t = document.createElement("link");
+//     t.href = "https://nicocouz.github.io/Bookmarklet/style.css", t.id = "Bookmarklet_style", t.rel = "stylesheet", t.type = "text/css", document.head.appendChild(t)
+//   }else{}
+//     document.getElementById("myModal").remove();
+//     document.getElementById("Bookmarklet_main").remove();
+//     document.getElementById("Bookmarklet_style").remove();
+//   )
+// }();
