@@ -1,5 +1,5 @@
 //  Last modification :
-//  09/11/20 - 19:13
+//  09/11/20 - 20:30
 
 (function() {
 
@@ -55,19 +55,23 @@
       // Site identifier
       for (var keys in tagsList) {
         var item = document.createElement('h1');
-        item.appendChild(document.createTextNode("Site identifier : " + keys));
+        item.appendChild(document.createTextNode("Site Identifier : " + keys));
         item.id = "h1_site_id"
-        item.style = "color:black;font-size:18px;font-family:Goudy Bookletter 1911,sans-serif;list-style-type:circle;"
         list.appendChild(item);
+        var item = document.createElement('hr');
+        item.id = 'hr_site_id'
+        list.appendChild(item);
+
         // Container identifier
         for (var cle in tagsList[keys]) {
           var item_div = document.createElement('h2');
           item_div.id = "h2_container_id"
           var item = document.createElement('a');
-          item.appendChild(document.createTextNode("Container identifier : " + cle + " -- Version : " + tagsList[keys][cle].v));
+          item.appendChild(document.createTextNode("Container ID : " + cle + " -- Version : " + tagsList[keys][cle].v));
           item.setAttribute("href", "https://platform.commandersact.com/en/" + keys + "/containers/deploy/" + cle)
           item.setAttribute("target", "_blank")
-          item.style = "color:red;font-size:15px;font-family:Goudy Bookletter 1911,sans-serif;"
+          item.setAttribute("title","Click here to get to the container deployed tab")
+          item.id = "h2_container_id_a"
           item_div.appendChild(item);
           list.appendChild(item_div);
           // Tags identifier
@@ -83,7 +87,9 @@
               list.appendChild(item);
             }
           }
-
+          var item = document.createElement('hr');
+          item.id = 'hr_tags'
+          list.appendChild(item);
         }
       }
       // Finally, return the constructed list:

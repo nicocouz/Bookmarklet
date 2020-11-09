@@ -1,15 +1,16 @@
 /*
   Last modification :
-  09/11/20 - 19:13
+  09/11/20 - 20:30
 */
 .modal_ca {
   /* display: none !important; */
   position: fixed !important;
-  margin: 20px !important;
+  margin: 33px !important;
   right: 0 !important;
   top: 0 !important;
   width: 350px !important;
   height: auto !important;
+  max-height: 350px !important;
   overflow: auto !important;
   background-color: #DCDCDC !important;
   z-index: 999999999999999 !important;
@@ -50,17 +51,18 @@
   margin: 1% !important;
   top: 0px !important;
   left: 0px !important;
-  width: 42% !important;
+  width: 54% !important;
   overflow: overlay !important;
   z-index: 999999999999999 !important;
 }
 
 #button_close {
-  margin: 1% !important;
+  width: 9% !important;
+  margin: -3% !important;
   /* width: 4% !important; */
   float: right !important;
   z-index: 9999999999999 !important;
-  padding-right: 2% !important;
+  padding-right: 0% !important;
   padding-bottom: 0% !important;
 }
 
@@ -69,15 +71,36 @@
   text-shadow: 0 0 10px !important;
 }
 
+/* CONTENT */
 #h1_site_id {
   color: black !important;
   font-size: 18px !important;
-  padding-top: 32px !important;
+  margin-top: 55px !important;
+}
+
+#hr_site_id {
+  margin-top: 1rem !important;
+  border: 0 !important;
+  border-top: 3px solid #2c3f51 !important;
+}
+
+#hr_tags {
+  width: 52px !important;
 }
 
 #h2_container_id {
-  color: red !important;
+  margin: 0 !important;
+}
+
+#h2_container_id_a {
+  color: grey !important;
   font-size: 15px !important;
+  font-weight: bold !important;
+}
+
+#h2_container_id_a:hover {
+  color: #878f99 !important;
+  text-decoration: none !important;
 }
 
 #tagslistitem {
