@@ -1,6 +1,6 @@
 /*
   Last modification :
-  10/11/20 - 12:16
+  10/11/20 - 12:54
 */
 .modal_ca {
   /* display: none !important; */
@@ -81,13 +81,14 @@
 }
 
 #hr_site_id {
-  margin-top: 1rem !important;
+  margin: 10px !important;
   border: 0 !important;
   border-top: 3px solid #2c3f51 !important;
 }
 
 #h2_container_id {
   margin: 0 !important;
+  text-align: left !important;
 }
 
 #h2_container_id_a {
@@ -116,4 +117,8 @@
   /* margin: 0px !important; */
   /* padding: 9px 0 !important; */
   line-height: 54% !important;
+}
+
+#h2_container_id:after {
+    content: none;
 }
