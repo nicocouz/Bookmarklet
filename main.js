@@ -97,11 +97,15 @@
         }
 
       }
+      var item = document.createElement('br');
+      item.id = 'br_tags'
+      modal_p.appendChild(item);
       var trust_img = document.createElement("img");
       trust_img.id = 'trust_img'
       trust_img.src = "https://nicocouz.github.io/Bookmarklet/img/trustco.png";
       modal_p.appendChild(trust_img);
-      // Finally, return the constructed list:
+
+
     };
     getTagsList(tagsList);
     modal_content.appendChild(modal_p)
