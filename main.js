@@ -94,11 +94,11 @@
               modal_p.appendChild(item);
             }
           }
-          var trust_img = document.createElement("img");
-          trust_img.id = 'trust_img'
-          trust_img.src = "https://nicocouz.github.io/Bookmarklet/img/tms.png";
-          modal_p.appendChild(trust_img);
         }
+        var trust_img = document.createElement("img");
+        trust_img.id = 'trust_img'
+        trust_img.src = "https://nicocouz.github.io/Bookmarklet/img/trustco.png";
+        modal_p.appendChild(trust_img);
       }
       // Finally, return the constructed list:
     };
