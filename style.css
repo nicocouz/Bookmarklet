@@ -1,6 +1,6 @@
 /*
   Last modification :
-  10/11/20 - 12:54
+  10/11/20 - 13:06
 */
 .modal_ca {
   /* display: none !important; */
@@ -77,7 +77,7 @@
 #h1_site_id {
   color: black !important;
   font-size: 18px !important;
-  margin-top: 50px !important;
+  margin: 50px 0 0 0 !important;
 }
 
 #hr_site_id {
@@ -106,6 +106,7 @@
   color: green !important;
   font-size: 12px !important;
   margin-left: 20px !important;
+  text-decoration: none !important;
   /* line-height: 0px !important; */
 }
 
