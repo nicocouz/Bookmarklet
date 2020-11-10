@@ -1,5 +1,5 @@
 //  Last modification :
-//  10/11/20 - 12:54
+//  10/11/20 - 14:42
 
 (function() {
 
@@ -30,6 +30,8 @@
     var tagcologo = document.createElement("img");
     tagcologo.id = 'tagcologo'
     tagcologo.src = "https://staticplatform.commandersact.com/bundles/common/theme-2018/images/logo-white.svg?v=7.79.65";
+    // tagcologo.setAttribute('href','https://www.commandersact.com/fr/')
+    // tagcologo.setAttribute("target","_blank")
     navbar_ca.appendChild(tagcologo);
 
     var button_close = document.createElement('img')

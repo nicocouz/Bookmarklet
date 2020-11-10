@@ -1,6 +1,6 @@
 /*
   Last modification :
-  10/11/20 - 12:54
+  10/11/20 - 14:42
 */
 .modal_ca {
   /* display: none !important; */
@@ -52,6 +52,7 @@
   width: 54% !important;
   overflow: overlay !important;
   z-index: 999999999999999 !important;
+
 }
 
 #button_close {
@@ -64,11 +65,12 @@
   position: absolute !important;
   top: 0 !important;
   right: 0 !important;
+  cursor: pointer !important;
 }
 
 /* CONTENT */
 #h1_site_id {
-  color: black !important;
+  color: #243E36 !important;
   font-size: 18px !important;
   margin: 50px 0 0 0 !important;
 }
@@ -88,6 +90,7 @@
   color: grey !important;
   font-size: 15px !important;
   font-weight: bold !important;
+  cursor: pointer !important;
 }
 
 #h2_container_id_a:hover {
@@ -100,11 +103,12 @@
   font-size: 12px !important;
   margin-left: 20px !important;
   text-decoration: none !important;
+  cursor: alias !important;
 }
 
 #tagslistitem:hover{
   text-decoration: underline !important;
-  color: #8DE969 !important;
+  color: #3D5A6C !important;
 }
 
 #br_tags{
