@@ -1,5 +1,5 @@
 //  Last modification :
-//  10/11/20 - 14:54
+//  10/11/20 - 14:56
 
 (function() {
 
@@ -64,9 +64,10 @@
         modal_p.appendChild(item);
 
         // Container identifier
-        var tagcologo = document.createElement("img");
-        tagcologo.id = 'tms_img'
-        tagcologo.src = "https://nicocouz.github.io/Bookmarklet/img/tms.png";
+        var tms_img = document.createElement("img");
+        tms_img.id = 'tms_img'
+        tms_img.src = "https://nicocouz.github.io/Bookmarklet/img/tms.png";
+        modal_p.appendChild(tms_img);
 
         for (var cle in tagsList[keys]) {
           var item_div = document.createElement('h2');
