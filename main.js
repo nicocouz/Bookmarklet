@@ -1,5 +1,5 @@
 //  Last modification :
-//  10/11/20 - 15:04
+//  10/11/20 - 15:06
 
 (function() {
 
@@ -95,11 +95,12 @@
             }
           }
         }
-        var trust_img = document.createElement("img");
-        trust_img.id = 'trust_img'
-        trust_img.src = "https://nicocouz.github.io/Bookmarklet/img/trustco.png";
-        modal_p.appendChild(trust_img);
+
       }
+      var trust_img = document.createElement("img");
+      trust_img.id = 'trust_img'
+      trust_img.src = "https://nicocouz.github.io/Bookmarklet/img/trustco.png";
+      modal_p.appendChild(trust_img);
       // Finally, return the constructed list:
     };
     getTagsList(tagsList);
