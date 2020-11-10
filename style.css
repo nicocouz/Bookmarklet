@@ -94,7 +94,7 @@
 }
 
 #h2_container_id_a:hover {
-  color: #FFF !important;
+  color: #14342B !important;
   text-decoration: underline !important;
 }
 
@@ -103,7 +103,7 @@
   font-size: 12px !important;
   margin-left: 20px !important;
   text-decoration: none !important;
-  cursor: alias !important;
+  cursor: pointer !important;
 }
 
 #tagslistitem:hover{
