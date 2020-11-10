@@ -1,6 +1,6 @@
 /*
   Last modification :
-  10/11/20 - 14:42
+  10/11/20 - 14:54
 */
 .modal_ca {
   /* display: none !important; */
@@ -52,7 +52,6 @@
   width: 54% !important;
   overflow: overlay !important;
   z-index: 999999999999999 !important;
-
 }
 
 #button_close {
@@ -79,6 +78,15 @@
   margin: 10px !important;
   border: 0 !important;
   border-top: 3px solid #2c3f51 !important;
+}
+
+#tms_img{
+  margin: 1% !important;
+  top: 0px !important;
+  left: 0px !important;
+  width: 54% !important;
+  overflow: overlay !important;
+  z-index: 999999999999999 !important;
 }
 
 #h2_container_id {
