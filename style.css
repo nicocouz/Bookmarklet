@@ -1,6 +1,6 @@
 /*
   Last modification :
-  09/11/20 - 00:13
+  10/11/20 - 12:16
 */
 .modal_ca {
   /* display: none !important; */
@@ -45,6 +45,11 @@
   position: fixed !important;
   z-index: 9999999999 !important;
   width: 350px !important;
+  /* display: inline !important; */
+}
+
+#navbar_ca_div{
+  display: inline !important;
 }
 
 #tagcologo {
@@ -59,18 +64,20 @@
 #button_close {
   width: 9% !important;
   margin: -3% !important;
-  /* width: 4% !important; */
   float: right !important;
   z-index: 9999999999999 !important;
   padding-right: 0% !important;
   padding-bottom: 0% !important;
+  position: absolute !important;
+  top: 0 !important;
+  right: 0 !important;
 }
 
 /* CONTENT */
 #h1_site_id {
   color: black !important;
   font-size: 18px !important;
-  margin-top: 55px !important;
+  margin-top: 50px !important;
 }
 
 #hr_site_id {
@@ -97,9 +104,16 @@
 #tagslistitem {
   color: green !important;
   font-size: 12px !important;
-  font-family: Goudy Bookletter 1911, sans-serif !important;
+  margin-left: 20px !important;
+  /* line-height: 0px !important; */
 }
 
 #tagslistitem:hover{
   text-decoration: underline !important;
+}
+
+#br_tags{
+  /* margin: 0px !important; */
+  /* padding: 9px 0 !important; */
+  line-height: 54% !important;
 }

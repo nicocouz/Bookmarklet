@@ -1,5 +1,5 @@
 //  Last modification :
-//  09/11/20 - 00:11
+//  10/11/20 - 12:16
 
 (function() {
 
@@ -26,19 +26,16 @@
     navbar_ca.id = 'navbar_ca'
     modal.appendChild(navbar_ca)
 
-    var navbar_ca_div = document.createElement("div");
-    navbar_ca_div.id = 'navbar_ca_div'
-    navbar_ca.appendChild(navbar_ca_div)
 
     var tagcologo = document.createElement("img");
     tagcologo.id = 'tagcologo'
     tagcologo.src = "https://staticplatform.commandersact.com/bundles/common/theme-2018/images/logo-white.svg?v=7.79.65";
-    navbar_ca_div.appendChild(tagcologo);
+    navbar_ca.appendChild(tagcologo);
 
     var button_close = document.createElement('img')
     button_close.id = 'button_close'
     button_close.src = "https://nicocouz.github.io/Bookmarklet/img/close.png";
-    navbar_ca_div.appendChild(button_close)
+    navbar_ca.appendChild(button_close)
 
     var modal_content = document.createElement("div");
     modal_content.className = "modal-content"
@@ -80,19 +77,19 @@
           if (tagsList[keys][cle].t.length > 0) {
             for (var i = 0; i < tagsList[keys][cle].t.length; i += 1) {
               var item = document.createElement('a');
-              item.innerHTML = tagsList[keys][cle].t[i].label
+              item.innerHTML = '> '+tagsList[keys][cle].t[i].label
               item.setAttribute("href", "https://platform.commandersact.com/en/" + keys + "/containers/edit/" + cle + "/" + cle + "/tag/" + tagsList[keys][cle].t[i].id)
               item.setAttribute("target", "_blank")
               item.id = 'tagslistitem'
               modal_p.appendChild(item);
               var item = document.createElement('br');
+              item.id = 'br_tags'
               modal_p.appendChild(item);
             }
           }
         }
       }
       // Finally, return the constructed list:
-      //  console.log(modal_p);
     };
     getTagsList(tagsList);
     modal_content.appendChild(modal_p)
