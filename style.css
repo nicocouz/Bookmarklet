@@ -1,6 +1,6 @@
 /*
   Last modification :
-  10/11/20 - 14:54
+  10/11/20 - 14:59
 */
 .modal_ca {
   /* display: none !important; */
@@ -41,7 +41,7 @@
   width: 350px !important;
 }
 
-#navbar_ca_div{
+#navbar_ca_div {
   display: inline !important;
 }
 
@@ -80,11 +80,20 @@
   border-top: 3px solid #2c3f51 !important;
 }
 
-#tms_img{
+#tms_img {
   margin: 1% !important;
   top: 0px !important;
   left: 0px !important;
-  width: 54% !important;
+  width: 31% !important;
+  overflow: overlay !important;
+  z-index: 999999999999999 !important;
+}
+
+#trust_img {
+  margin: 1% !important;
+  top: 0px !important;
+  left: 0px !important;
+  width: 31% !important;
   overflow: overlay !important;
   z-index: 999999999999999 !important;
 }
@@ -114,15 +123,15 @@
   cursor: pointer !important;
 }
 
-#tagslistitem:hover{
+#tagslistitem:hover {
   text-decoration: underline !important;
   color: #3D5A6C !important;
 }
 
-#br_tags{
+#br_tags {
   line-height: 54% !important;
 }
 
 #h2_container_id:after {
-    content: none;
+  content: none;
 }
