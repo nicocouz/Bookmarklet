@@ -97,8 +97,8 @@
         }
 
       }
-      var item = document.createElement('br');
-      item.id = 'br_tags'
+      var item = document.createElement('hr');
+      item.id = 'hr_site_id';
       modal_p.appendChild(item);
       var trust_img = document.createElement("img");
       trust_img.id = 'trust_img'
