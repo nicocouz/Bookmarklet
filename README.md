@@ -7,7 +7,7 @@ What is looks like :
 
 ## Purpose : 
 
-![Image Of TagCommander](https://nicocouz.github.io/Bookmarklet/img/tms.png |width=100)
+![Image Of TagCommander](https://nicocouz.github.io/Bookmarklet/img/tms.png =250x250)
 
 - [x] Get the site(s) ID(s)
 - [x] Get the container(s) ID(s) + Version(s) called (with href link to the TagCommander deploy tab)
