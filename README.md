@@ -60,7 +60,7 @@ What is looks like :
 
 Coming soon : 
 
-- [] Datalayer ?
-- [] Events ?
+- [ ] Datalayer ?
+- [ ] Events ?
 
 **Difficult to say, sky is the limit !**
