@@ -27,7 +27,8 @@ What is looks like :
 
 > Right click on the new bookmarklet : 
 
-![Image use1](https://nicocouz.github.io/Bookmarklet/img/use3.jpeg){:height="36px" width="36px"}.
+<img src="https://nicocouz.github.io/Bookmarklet/img/use3.jpeg" width="40%">
+
 
 > Modify the name of it then add the following code : 
 
