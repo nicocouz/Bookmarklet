@@ -46,4 +46,10 @@ What is looks like :
 <br>
 <br>
 
+
+*** This is a beta test, the bookmarklet might inherit from the CSS website you test it with, but technically it works !  ***	
+
+:+1: Any Pull Request is welcome !! Pulling is caring !! :+1:
+
+
 Coming soon : 
