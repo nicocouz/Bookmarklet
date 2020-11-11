@@ -23,14 +23,6 @@ What is looks like :
 
 <br>
 
-## How to use :
-
-- Click on the Bookmarklet tab.
-- To close it, click on the cross or click on the Bookmarklet tab
-
-<br>
-
-
 ## How to install : 
 
 
@@ -48,6 +40,13 @@ What is looks like :
 
 `javascript:!function(){if(null===document.querySelector("#myModal")){let e=document.createElement("link");e.href="https://nicocouz.github.io/Bookmarklet/style.css",e.id="Bookmarklet_style",e.rel="stylesheet",e.type="text/css",document.head.appendChild(e);let t=document.createElement("script");t.src="https://nicocouz.github.io/Bookmarklet/main.js",t.id="Bookmarklet_main",document.body.appendChild(t)}else document.getElementById("myModal").remove(),document.getElementById("Bookmarklet_main").remove(),document.getElementById("Bookmarklet_style").remove()}();`
 
+
+<br>
+
+## How to use :
+
+- Click on the Bookmarklet tab.
+- To close it, click on the cross or click on the Bookmarklet tab
 
 <br>
 <br>
