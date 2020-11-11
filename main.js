@@ -1,5 +1,5 @@
 //  Last modification :
-//  11/11/20 - 20:11
+//  11/11/20 - 23:38
 
 (function() {
 
@@ -16,7 +16,7 @@
     console.log("Bookmarklet starting")
 
     // Tracling
-    tC.script.add("https://nicolastest.commander1.com/v3/?tcs=4505&chn=Bookmarklet&src="+document.location.href+"&rand="+Math.random());
+   tC.script.add("https://nicolastest.commander1.com/v3/?tcs=4505&chn=Bookmarklet&src="+document.location.href+"&rand="+Math.random());
 
     let style = document.createElement('link');
     style.href = 'https://fonts.googleapis.com/css2?family=Roboto&display=swap';
