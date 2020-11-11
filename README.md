@@ -25,11 +25,9 @@ What is looks like :
 
 ![Image use1](https://nicocouz.github.io/Bookmarklet/img/use1.jpeg)
 
-![Image use1](https://nicocouz.github.io/Bookmarklet/img/use2.jpeg)
-
 > Right click on the new bookmarklet : 
 
-![Image use1](https://nicocouz.github.io/Bookmarklet/img/use3.jpeg)
+![Image use1](https://nicocouz.github.io/Bookmarklet/img/use3.jpeg 130x20)
 
 > Modify the name of it then add the following code : 
 
