@@ -2,13 +2,13 @@
 
 What is looks like : 
 
-<img src="https://nicocouz.github.io/Bookmarklet/img/readme.jpeg" width="80%">
+<img src="https://nicocouz.github.io/Bookmarklet/img/readme.jpeg" width="85%">.
 
 
 
 ## Purpose : 
 
-<img src="https://nicocouz.github.io/Bookmarklet/img/tms.png" width="20%">
+<img src="https://nicocouz.github.io/Bookmarklet/img/tms.png" width="20%">.
 
 
 - [x] Get the site(s) ID(s)
@@ -17,17 +17,17 @@ What is looks like :
 
 
 
-<img src="https://nicocouz.github.io/Bookmarklet/img/trustco.png" width="20%">
+<img src="https://nicocouz.github.io/Bookmarklet/img/trustco.png" width="20%">.
 
-- [x] Get the Privacy ID + Version called (with href link to the TrustCommander deploy tab)
-
-
+- [x] Get the Privacy ID + Version called (with href link to the TrustCommander deploy tab).
 
 
-## How to install : 
 
 
-> On any websites, drag the url in your bookmarklet : 
+## How to install : .
+
+
+> On any websites, drag the url in your bookmarklet : .
 
 
 <img src="https://nicocouz.github.io/Bookmarklet/img/use1.jpeg" width="40%">
@@ -36,7 +36,7 @@ What is looks like :
 > Right click on the new bookmarklet, modify the name of it & then add the following code within the URL entry : 
 
 
-<img src="https://nicocouz.github.io/Bookmarklet/img/use3.jpeg" width="40%">
+<img src="https://nicocouz.github.io/Bookmarklet/img/use3.jpeg" width="40%">.
 
 
 
