@@ -33,7 +33,7 @@ What is looks like :
 <img src="https://nicocouz.github.io/Bookmarklet/img/use1.jpeg" width="40%">
 
 
-> Right click on the new bookmarklet, modify the name of it & then add the following code : 
+> Right click on the new bookmarklet, modify the name of it & then add the following code within the URL entry : 
 
 
 <img src="https://nicocouz.github.io/Bookmarklet/img/use3.jpeg" width="40%">
@@ -41,6 +41,8 @@ What is looks like :
 
 
 `javascript:!function(){if(null===document.querySelector("#myModal")){let e=document.createElement("link");e.href="https://nicocouz.github.io/Bookmarklet/style.css",e.id="Bookmarklet_style",e.rel="stylesheet",e.type="text/css",document.head.appendChild(e);let t=document.createElement("script");t.src="https://nicocouz.github.io/Bookmarklet/main.js",t.id="Bookmarklet_main",document.body.appendChild(t)}else document.getElementById("myModal").remove(),document.getElementById("Bookmarklet_main").remove(),document.getElementById("Bookmarklet_style").remove()}();`
+
+
 
 
 Coming soon : 
