@@ -25,8 +25,8 @@ What is looks like :
 
 ## How to use :
 
-1- Click on the Bookmarklet tab
-2- To close it, click on the cross or click on the Bookmarklet tab
+- Click on the Bookmarklet tab.
+- To close it, click on the cross or click on the Bookmarklet tab
 
 <br>
 
