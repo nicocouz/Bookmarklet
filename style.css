@@ -1,6 +1,6 @@
 /*
   Last modification :
-  11/11/20 - 17:52
+  11/11/20 - 18:00
 */
 
 body {
@@ -137,7 +137,9 @@ body {
 }
 
 #h2_no_privacy_div_a{
-
+  color: grey !important;
+  font-size: 13px !important;
+  font-weight: bold !important;
 }
 
 #h2_privacy_div_a:hover {
