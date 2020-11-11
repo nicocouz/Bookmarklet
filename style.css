@@ -7,7 +7,7 @@ body {
     font-size: 17px !important;
     font-weight: normal !important;
     color: #766A62 !important;
-    font-family: monospace !important;
+    /* font-family: monospace !important; */
     /* text-align: left !important; */
     /* line-height: 2px !important; */
 }
