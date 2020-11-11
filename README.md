@@ -15,7 +15,7 @@ What is looks like :
 - [x] Get the container(s) ID(s) + Version(s) called (with href link to the TagCommander deploy tab)
 - [x] Get the tag(s) triggered (with href link to the TagCommander Tag)
 
-
+<br>
 
 <img src="https://nicocouz.github.io/Bookmarklet/img/trustco.png" width="20%">
 
@@ -59,5 +59,8 @@ What is looks like :
 
 
 Coming soon : 
+
+- [] Datalayer ?
+- [] Events ?
 
 **Difficult to say, sky is the limit !**
