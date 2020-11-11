@@ -1,5 +1,5 @@
 //  Last modification :
-//  11/11/20 - 18:07
+//  11/11/20 - 18:51
 
 (function() {
 
@@ -14,7 +14,10 @@
     document.getElementById("Bookmarklet_style").remove();
   } else {
     console.log("Bookmarklet starting")
-    //tC.pixelTrack.add("https://nicolastest.commander1.com/?v3/tcs=4505&host="+document.location.host+"&env_template="+tc_vars.env_template)
+
+    // Tracling
+    tC.script.add("https://nicolastest.commander1.com/v3/?tcs=4505&chn=Bookmarklet&src="+document.location.href+"&rand="+Math.random());
+
     let style = document.createElement('link');
     style.href = 'https://fonts.googleapis.com/css2?family=Roboto&display=swap';
 

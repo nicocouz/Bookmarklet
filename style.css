@@ -1,6 +1,6 @@
 /*
   Last modification :
-  11/11/20 - 19:37
+  11/11/20 - 19:51
 */
 
 body {
@@ -86,7 +86,6 @@ body {
 #h1_site_id {
   color: black !important;
   font-size: 15px !important;
-  margin: 7px !important;
   font-weight: 600 !important;
 }
 
