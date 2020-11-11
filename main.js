@@ -1,5 +1,5 @@
 //  Last modification :
-//  11/11/20 - 18:00
+//  11/11/20 - 18:07
 
 (function() {
 
@@ -105,6 +105,7 @@
       var item = document.createElement('hr');
       item.id = 'hr_site_id';
       modal_p.appendChild(item);
+
       var trust_img = document.createElement("img");
       trust_img.id = 'trust_img'
       trust_img.src = "https://nicocouz.github.io/Bookmarklet/img/trustco.png";
@@ -119,13 +120,12 @@
         item.setAttribute("href", "https://platform.commandersact.com/en/" + keys + "/containers/privacy/deploy/" + tC.privacyID)
         item.setAttribute("target", "_blank")
         item.id = "h2_privacy_div_a"
+        privacy_div.appendChild(item);
       } else {
         var privacy_div = document.createElement('h2');
         privacy_div.id = "h2_no_privacy_div_a"
         privacy_div.appendChild(document.createTextNode("No Privacy called on that page"));
       }
-
-      privacy_div.appendChild(item);
       modal_p.appendChild(privacy_div);
 
     };
