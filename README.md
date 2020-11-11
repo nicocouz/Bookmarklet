@@ -2,19 +2,19 @@
 
 What is looks like : 
 
-![Image Of The Bookmarklet](https://nicocouz.github.io/Bookmarklet/img/readme.jpeg)
+<img src="https://nicocouz.github.io/Bookmarklet/img/readme.jpeg" width="80%">
 
 
 ## Purpose : 
 
-![Image Of TagCommander](https://nicocouz.github.io/Bookmarklet/img/tms.png)
+<img src="https://nicocouz.github.io/Bookmarklet/img/tms.png" width="40%">
+
 
 - [x] Get the site(s) ID(s)
 - [x] Get the container(s) ID(s) + Version(s) called (with href link to the TagCommander deploy tab)
 - [x] Get the tag(s) triggered (with href link to the TagCommander Tag)
 
-
-![Image Of TagCommander](https://nicocouz.github.io/Bookmarklet/img/trustco.png)
+<img src="https://nicocouz.github.io/Bookmarklet/img/trustco.png" width="40%">
 
 - [x] Get the Privacy ID + Version called (with href link to the TrustCommander deploy tab)
 
@@ -23,7 +23,7 @@ What is looks like :
 
 > On any websites, drag the url in your bookmarklet : 
 
-![Image use1](https://nicocouz.github.io/Bookmarklet/img/use1.jpeg)
+<img src="https://nicocouz.github.io/Bookmarklet/img/use1.jpeg" width="40%">
 
 > Right click on the new bookmarklet : 
 
