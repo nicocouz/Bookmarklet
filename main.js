@@ -1,5 +1,5 @@
 //  Last modification :
-//  10/11/20 - 15:06
+//  11/11/20 - 17:17
 
 (function() {
 
@@ -45,35 +45,35 @@
     modal.appendChild(modal_content)
 
     var modal_p = document.createElement("div");
-    modal_p.id = 'modal_p'
+    modal_p.className = 'modal_p'
 
     var tagsList = tC.containersLaunched
 
     function getTagsList(tagsList) {
       var tagsList = tC.containersLaunched
       // Create the list element:
-
+      var tms_img = document.createElement("img");
+      tms_img.id = 'tms_img'
+      tms_img.src = "https://nicocouz.github.io/Bookmarklet/img/tms.png";
+      modal_p.appendChild(tms_img);
       // Site identifier
       for (var keys in tagsList) {
         var item = document.createElement('h1');
-        item.appendChild(document.createTextNode("Site Identifier : " + keys));
+        item.appendChild(document.createTextNode(">>> Site  ID : " + keys));
         item.id = "h1_site_id"
         modal_p.appendChild(item);
-        var item = document.createElement('hr');
-        item.id = 'hr_site_id';
-        modal_p.appendChild(item);
+        // var item = document.createElement('hr');
+        // item.id = 'hr_site_id';
+        // modal_p.appendChild(item);
 
         // Container identifier
-        var tms_img = document.createElement("img");
-        tms_img.id = 'tms_img'
-        tms_img.src = "https://nicocouz.github.io/Bookmarklet/img/tms.png";
-        modal_p.appendChild(tms_img);
+
 
         for (var cle in tagsList[keys]) {
           var item_div = document.createElement('h2');
           item_div.id = "h2_container_id"
           var item = document.createElement('a');
-          item.appendChild(document.createTextNode("Container ID : " + cle + " -- Version : " + tagsList[keys][cle].v));
+          item.appendChild(document.createTextNode(">> Container ID : " + cle + " -- Version : " + tagsList[keys][cle].v));
           item.setAttribute("href", "https://platform.commandersact.com/en/" + keys + "/containers/deploy/" + cle)
           item.setAttribute("target", "_blank")
           item.setAttribute("title", "Click here to get to the container deployed tab")
@@ -105,6 +105,15 @@
       trust_img.src = "https://nicocouz.github.io/Bookmarklet/img/trustco.png";
       modal_p.appendChild(trust_img);
 
+      var privacy_div = document.createElement('h2');
+      privacy_div.id = "h2_privacy_div"
+      var item = document.createElement('a');
+      item.appendChild(document.createTextNode(">> Privacy ID : " + tC.privacyID + " -- Version : " + tC.privacyVersion));
+      item.setAttribute("href", "https://platform.commandersact.com/en/"+keys+"/containers/privacy/deploy/"+tC.privacyID)
+      item.setAttribute("target", "_blank")
+      item.id = "h2_privacy_div_a"
+      privacy_div.appendChild(item);
+      modal_p.appendChild(privacy_div);
 
     };
     getTagsList(tagsList);
