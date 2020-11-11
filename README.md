@@ -12,8 +12,8 @@ What is looks like :
 
 
 - [x] Get the site(s) ID(s)
-- [x] Get the container(s) ID(s) + Version(s) called (with href link to the TagCommander deploy tab)
-- [x] Get the tag(s) triggered (with href link to the TagCommander Tag)
+- [x] Get the container(s) ID(s) + Version(s) called (**with href link to the TagCommander deploy tab**)
+- [x] Get the tag(s) triggered (**with href link to the TagCommander Tag**)
 
 <br>
 
@@ -21,6 +21,9 @@ What is looks like :
 
 - [x] Get the Privacy ID + Version called (with href link to the TrustCommander deploy tab)
 
+<br>
+
+To close it, click on the cross or click on the Bookmarklet tab
 
 <br>
 
