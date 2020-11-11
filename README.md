@@ -32,10 +32,9 @@ What is looks like :
 <br>
 
 <img src="https://nicocouz.github.io/Bookmarklet/img/use1.jpeg" width="40%">
-
+<br>
 
 > Right click on the new bookmarklet, modify the name of it & then add the following code within the URL entry : 
-<br>
 
 <img src="https://nicocouz.github.io/Bookmarklet/img/use3.jpeg" width="40%">
 
