@@ -12,8 +12,8 @@ What is looks like :
 
 
 - [x] Get the site(s) ID(s)
-- [x] Get the container(s) ID(s) + Version(s) called (with href link to the TagCommander deploy tab)
-- [x] Get the tag(s) triggered (with href link to the TagCommander Tag)
+- [x] Get the container(s) ID(s) + Version(s) called (**with href link to the TagCommander deploy tab**)
+- [x] Get the tag(s) triggered (**with href link to the TagCommander Tag**)
 
 <br>
 
@@ -21,9 +21,7 @@ What is looks like :
 
 - [x] Get the Privacy ID + Version called (with href link to the TrustCommander deploy tab)
 
-
 <br>
-
 
 ## How to install : 
 
@@ -44,10 +42,17 @@ What is looks like :
 
 
 <br>
+
+## How to use :
+
+- Click on the Bookmarklet tab.
+- To close it, click on the cross or click on the Bookmarklet tab
+
+<br>
 <br>
 
 
-Coming soon : 
+## Coming soon : 
 
 - [ ] Datalayer ?
 - [ ] Events ?
