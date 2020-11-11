@@ -47,7 +47,7 @@ What is looks like :
 <br>
 
 
-***This is a beta test, the bookmarklet might inherit from the CSS website you test it with, but technically it works !***	
+***This is a beta test, the bookmarklet might inherit from the CSS website you test it with, but technically it works!***	
 
 <br>
 
@@ -60,4 +60,4 @@ What is looks like :
 
 Coming soon : 
 
-Difficult to say, sky is the limit ! 
+**Difficult to say, sky is the limit !**
