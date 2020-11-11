@@ -8,7 +8,7 @@ What is looks like :
 
 ## Purpose : 
 
-<img src="https://nicocouz.github.io/Bookmarklet/img/tms.png" width="40%">
+<img src="https://nicocouz.github.io/Bookmarklet/img/tms.png" width="20%">
 
 
 - [x] Get the site(s) ID(s)
@@ -17,7 +17,7 @@ What is looks like :
 
 
 
-<img src="https://nicocouz.github.io/Bookmarklet/img/trustco.png" width="40%">
+<img src="https://nicocouz.github.io/Bookmarklet/img/trustco.png" width="20%">
 
 - [x] Get the Privacy ID + Version called (with href link to the TrustCommander deploy tab)
 
