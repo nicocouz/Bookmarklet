@@ -28,7 +28,7 @@ What is looks like :
 ## How to install : 
 
 
-> On any websites, drag the url in your bookmarklet : 
+> On any website, drag the url in your bookmarklets : 
 <br>
 
 <img src="https://nicocouz.github.io/Bookmarklet/img/use1.jpeg" width="40%">
