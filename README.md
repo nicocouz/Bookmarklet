@@ -23,7 +23,10 @@ What is looks like :
 
 <br>
 
-To close it, click on the cross or click on the Bookmarklet tab
+## How to use :
+
+1- Click on the Bookmarklet tab
+2- To close it, click on the cross or click on the Bookmarklet tab
 
 <br>
 
