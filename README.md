@@ -47,6 +47,15 @@ What is looks like :
 <br>
 
 
+Coming soon : 
+
+- [ ] Datalayer ?
+- [ ] Events ?
+
+*Difficult to say, sky is the limit !*
+
+<br><br>
+
 ***This is a beta test, the bookmarklet might inherit from the CSS website you test it with, but technically it works!***	
 
 <br>
@@ -54,13 +63,5 @@ What is looks like :
 :+1: Any Pull Request is welcome !! Pull Requesting is caring !! :+1:
 
 <br>
-<br>
 
-
-
-Coming soon : 
-
-- [ ] Datalayer ?
-- [ ] Events ?
-
-**Difficult to say, sky is the limit !**
+**ENJOY BOOKMARKETLING !! **
