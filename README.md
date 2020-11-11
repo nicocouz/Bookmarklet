@@ -19,6 +19,21 @@ What is looks like :
 - [x] Get the Privacy ID + Version called (with href link to the TrustCommander deploy tab)
 
 
-How to install : 
+## How to install : 
+
+> On any websites, drag the url in your bookmarklet : 
+
+![Image use1](https://nicocouz.github.io/Bookmarklet/img/use1.jpeg)
+
+![Image use1](https://nicocouz.github.io/Bookmarklet/img/use2.jpeg)
+
+> Right click on the new bookmarklet : 
+
+![Image use1](https://nicocouz.github.io/Bookmarklet/img/use3.jpeg)
+
+> Modify the name of it then add the following code : 
+
+`javascript:!function(){if(null===document.querySelector("#myModal")){let e=document.createElement("link");e.href="https://nicocouz.github.io/Bookmarklet/style.css",e.id="Bookmarklet_style",e.rel="stylesheet",e.type="text/css",document.head.appendChild(e);let t=document.createElement("script");t.src="https://nicocouz.github.io/Bookmarklet/main.js",t.id="Bookmarklet_main",document.body.appendChild(t)}else document.getElementById("myModal").remove(),document.getElementById("Bookmarklet_main").remove(),document.getElementById("Bookmarklet_style").remove()}();`
+
 
 Coming soon : 
