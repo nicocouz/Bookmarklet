@@ -110,17 +110,21 @@
       trust_img.src = "https://nicocouz.github.io/Bookmarklet/img/trustco.png";
       modal_p.appendChild(trust_img);
 
-      var privacy_div = document.createElement('h2');
-      privacy_div.id = "h2_privacy_div"
-      var item = document.createElement('a');
+
       if (typeof tC.privacyID != "undefined") {
+        var privacy_div = document.createElement('h2');
+        privacy_div.id = "h2_privacy_div"
+        var item = document.createElement('a');
         item.appendChild(document.createTextNode(">> Privacy ID : " + tC.privacyID + " -- Version : " + tC.privacyVersion));
         item.setAttribute("href", "https://platform.commandersact.com/en/" + keys + "/containers/privacy/deploy/" + tC.privacyID)
         item.setAttribute("target", "_blank")
+        item.id = "h2_privacy_div_a"
       } else {
-        item.appendChild(document.createTextNode("No Privacy called on that page"));
+        var privacy_div = document.createElement('h2');
+        privacy_div.id = "h2_no_privacy_div_a"
+        privacy_div.appendChild(document.createTextNode("No Privacy called on that page"));
       }
-      item.id = "h2_privacy_div_a"
+
       privacy_div.appendChild(item);
       modal_p.appendChild(privacy_div);
 

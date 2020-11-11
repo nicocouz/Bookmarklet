@@ -136,6 +136,10 @@ body {
   cursor: pointer !important;
 }
 
+#h2_no_privacy_div_a{
+
+}
+
 #h2_privacy_div_a:hover {
   color: black !important;
   text-decoration: underline !important;
