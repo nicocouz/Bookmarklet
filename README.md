@@ -13,6 +13,12 @@ What is looks like :
 - [x] Get the container(s) ID(s) + Version(s) called (with href link to the TagCommander deploy tab)
 - [x] Get the tag(s) triggered (with href link to the TagCommander Tag)
 
+
+![Image Of TagCommander](https://nicocouz.github.io/Bookmarklet/img/trustco.png)
+
+- [x] Get the Privacy ID + Version called (with href link to the TrustCommander deploy tab)
+
+
 How to install : 
 
 Coming soon : 
