@@ -52,7 +52,7 @@ What is looks like :
 <br>
 
 
-Coming soon : 
+## Coming soon : 
 
 - [ ] Datalayer ?
 - [ ] Events ?
