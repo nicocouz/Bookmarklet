@@ -22,8 +22,8 @@ What is looks like :
 - [x] Get the Privacy ID + Version called (with href link to the TrustCommander deploy tab).
 
 
-.
-.
+
+
 
 ## How to install : .
 
