@@ -1,12 +1,15 @@
 /*
   Last modification :
-  11/11/20 - 17:17
+  11/11/20 - 17:52
 */
 
 body {
     font-size: 17px !important;
     font-weight: normal !important;
     color: #766A62 !important;
+    font-family: monospace !important;
+    /* text-align: left !important; */
+    /* line-height: 2px !important; */
 }
 .modal_ca {
   /* display: none !important; */
@@ -35,9 +38,7 @@ body {
   text-align: left !important;
 }
 
-.modal_p {}
-
-#modal_content_p *{
+#modal_content_p {
   margin: 35px !important;
   font-size: 17px !important;
   font-family: 'Roboto', sans-serif !important;
@@ -48,10 +49,7 @@ body {
   position: fixed !important;
   z-index: 9999999999 !important;
   width: 350px !important;
-}
-
-#navbar_ca_div {
-  display: inline !important;
+  text-align: left !important;
 }
 
 #tagcologo {
@@ -93,7 +91,7 @@ body {
 }
 
 #hr_site_id {
-  /* margin: 10px !important; */
+  margin: 10px !important;
   border: 0 !important;
   border-top: 1px dashed grey !important;
 }
@@ -151,13 +149,21 @@ body {
   text-align: left !important;
 }
 
+#notagslistitem{
+  margin: 6px !important;
+  color: #72A98F !important;
+  font-size: 11px !important;
+  text-decoration: none !important;
+  text-align: left !important;
+}
+
 #tagslistitem:hover {
   text-decoration: underline !important;
   color: #3D5A6C !important;
 }
 
 #br_tags {
-  line-height: 54% !important;
+  line-height: 2p !important;
 }
 
 #h2_container_id:after {
