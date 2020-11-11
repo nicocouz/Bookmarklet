@@ -1,5 +1,5 @@
 //  Last modification :
-//  11/11/20 - 18:51
+//  11/11/20 - 20:11
 
 (function() {
 
@@ -62,7 +62,7 @@
       // Site identifier
       for (var keys in tagsList) {
         var item = document.createElement('h1');
-        item.appendChild(document.createTextNode(">>> Site  ID : " + keys));
+        item.appendChild(document.createTextNode(">>> Site  ID : " + keys+" <<<"));
         item.id = "h1_site_id"
         modal_p.appendChild(item);
         // var item = document.createElement('hr');
