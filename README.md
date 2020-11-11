@@ -47,9 +47,17 @@ What is looks like :
 <br>
 
 
-*** This is a beta test, the bookmarklet might inherit from the CSS website you test it with, but technically it works !  ***	
+***This is a beta test, the bookmarklet might inherit from the CSS website you test it with, but technically it works !***	
 
-:+1: Any Pull Request is welcome !! Pulling is caring !! :+1:
+<br>
+
+:+1: Any Pull Request is welcome !! Pull Requesting is caring !! :+1:
+
+<br>
+<br>
+
 
 
 Coming soon : 
+
+Difficult to say, sky is the limit ! 
