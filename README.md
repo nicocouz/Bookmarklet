@@ -63,7 +63,7 @@ What is looks like :
 
 ***This is a beta test, the bookmarklet might inherit from the CSS website you test it with, but technically it works!***	
 
-> Contact me if brakes on a site : nicolas.cousin@commandersact.com
+> Contact me if it is broken on a site : nicolas.cousin@commandersact.com
 
 <br>
 
