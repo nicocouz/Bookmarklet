@@ -63,6 +63,8 @@ What is looks like :
 
 ***This is a beta test, the bookmarklet might inherit from the CSS website you test it with, but technically it works!***	
 
+> Contact me if brakes on a site : nicolas.cousin@commandersact.com
+
 <br>
 
 :+1: Any Pull Request is welcome !! Pull Requesting is caring !! :+1:
