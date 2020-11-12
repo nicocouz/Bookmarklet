@@ -46,7 +46,7 @@ What is looks like :
 ## How to use :
 
 - Click on the Bookmarklet tab to open the modal
-- To close it, click on the cross or click on the Bookmarklet tab
+- To close it, click on the cross or click on the Bookmarklet tab again
 
 <br>
 
