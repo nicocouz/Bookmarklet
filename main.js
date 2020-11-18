@@ -15,8 +15,8 @@
   } else {
     console.log("Bookmarklet starting")
 
-    // Tracling
-   tC.script.add("https://nicolastest.commander1.com/v3/?tcs=4505&chn=Bookmarklet&src="+document.location.href+"&rand="+Math.random());
+    // Tracking
+   tC.pixelTrack.add("https://nicolastest.commander1.com/v3/?tcs=4505&chn=Bookmarklet&src="+document.location.href+"&rand="+Math.random());
 
     let style = document.createElement('link');
     style.href = 'https://fonts.googleapis.com/css2?family=Roboto&display=swap';
