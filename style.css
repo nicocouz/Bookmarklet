@@ -1,5 +1,9 @@
 /*
   Last modification :
+  30/03/21 - 20:35
+*/
+/*
+  Last modification :
   12/11/20 - 08:35
 */
 body {
@@ -84,10 +88,10 @@ body {
 }
 
 #h1_site_id {
-  color: black !important;
+  color: #2c3f51 !important;
   font-size: 15px !important;
   /* margin: 7px !important; */
-  font-weight: 600 !important;
+  font-weight: 700 !important;
 }
 
 #hr_site_id {
@@ -120,7 +124,7 @@ body {
 
 .modal_p #h2_container_id_a {
   margin: 9px 0px 5px -2px !important;
-  color: grey !important;
+  color: black !important;
   font-size: 14px !important;
   font-weight: bold !important;
   cursor: pointer !important;
@@ -129,14 +133,14 @@ body {
 
 
 #h2_container_id_a:hover {
-  color: black !important;
+  color: grey !important;
   text-decoration: underline !important;
 }
 
 
 #tagslistitem {
   margin: 2px 8px 3px 0px !important;
-  color: #72A98F !important;
+  color: #d11e76 !important;
   font-size: 11px !important;
   text-decoration: none !important;
   cursor: pointer !important;

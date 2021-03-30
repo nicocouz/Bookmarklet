@@ -1,5 +1,5 @@
 //  Last modification :
-//  11/11/20 - 23:38
+//  30/03/21 - 20:35
 
 (function() {
 
@@ -16,7 +16,7 @@
     console.log("Bookmarklet starting")
 
     // Tracking
-   tC.pixelTrack.add("https://nicolastest.commander1.com/v3/?tcs=4505&chn=Bookmarklet&src="+document.location.href+"&rand="+Math.random());
+  // tC.pixelTrack.add("https://nicolastest.commander1.com/v3/?tcs=4505&chn=Bookmarklet&src="+document.location.href+"&rand="+Math.random());
 
     let style = document.createElement('link');
     style.href = 'https://fonts.googleapis.com/css2?family=Roboto&display=swap';
@@ -33,8 +33,6 @@
     var tagcologo = document.createElement("img");
     tagcologo.id = 'tagcologo'
     tagcologo.src = "https://staticplatform.commandersact.com/bundles/common/theme-2018/images/logo-white.svg?v=7.79.65";
-    // tagcologo.setAttribute('href','https://www.commandersact.com/fr/')
-    // tagcologo.setAttribute("target","_blank")
     navbar_ca.appendChild(tagcologo);
 
     var button_close = document.createElement('img')
@@ -62,7 +60,7 @@
       // Site identifier
       for (var keys in tagsList) {
         var item = document.createElement('h1');
-        item.appendChild(document.createTextNode(">>> Site  ID : " + keys+" <<<"));
+        item.appendChild(document.createTextNode("Site  ID : " + keys));
         item.id = "h1_site_id"
         modal_p.appendChild(item);
         // var item = document.createElement('hr');
@@ -73,10 +71,10 @@
 
 
         for (var cle in tagsList[keys]) {
-          var item_div = document.createElement('h2');
+          var item_div = document.createElement('li');
           item_div.id = "h2_container_id"
           var item = document.createElement('a');
-          item.appendChild(document.createTextNode(">> Container ID : " + cle + " -- Version : " + tagsList[keys][cle].v));
+          item.appendChild(document.createTextNode("Container ID : " + cle + " > Version : " + tagsList[keys][cle].v));
           item.setAttribute("href", "https://platform.commandersact.com/en/" + keys + "/containers/deploy/" + cle)
           item.setAttribute("target", "_blank")
           item.setAttribute("title", "Click here to get to the container deployed tab")
@@ -87,7 +85,7 @@
           if (tagsList[keys][cle].t.length > 0) {
             for (var i = 0; i < tagsList[keys][cle].t.length; i += 1) {
               var item = document.createElement('a');
-              item.innerHTML = '> ' + tagsList[keys][cle].t[i].label
+              item.innerHTML = '- ' + tagsList[keys][cle].t[i].label
               item.setAttribute("href", "https://platform.commandersact.com/en/" + keys + "/containers/edit/" + cle + "/" + cle + "/tag/" + tagsList[keys][cle].t[i].id)
               item.setAttribute("target", "_blank")
               item.id = 'tagslistitem'
@@ -119,7 +117,7 @@
         var privacy_div = document.createElement('h2');
         privacy_div.id = "h2_privacy_div"
         var item = document.createElement('a');
-        item.appendChild(document.createTextNode(">> Privacy ID : " + tC.privacyID + " -- Version : " + tC.privacyVersion));
+        item.appendChild(document.createTextNode(">> Privacy ID : " + tC.privacyID + " > Version : " + tC.privacyVersion));
         item.setAttribute("href", "https://platform.commandersact.com/en/" + keys + "/containers/privacy/deploy/" + tC.privacyID)
         item.setAttribute("target", "_blank")
         item.id = "h2_privacy_div_a"
